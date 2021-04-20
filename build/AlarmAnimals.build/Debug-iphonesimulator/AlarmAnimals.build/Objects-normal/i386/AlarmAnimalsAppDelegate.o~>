@@ -1,0 +1,8 @@
+In file included from /Users/andrew/Documents/AlarmAnimals/Classes/AlarmAnimalsAppDelegate.m:9:
+/Users/andrew/Documents/AlarmAnimals/Classes/AlarmAnimalsAppDelegate.h:14: error: expected specifier-qualifier-list before 'NavController'
+/Users/andrew/Documents/AlarmAnimals/Classes/AlarmAnimalsAppDelegate.h:19: error: expected specifier-qualifier-list before 'NavController'
+/Users/andrew/Documents/AlarmAnimals/Classes/AlarmAnimalsAppDelegate.m:15: error: no declaration of property 'navController' found in the interface
+/Users/andrew/Documents/AlarmAnimals/Classes/AlarmAnimalsAppDelegate.m: In function '-[AlarmAnimalsAppDelegate dealloc]':
+/Users/andrew/Documents/AlarmAnimals/Classes/AlarmAnimalsAppDelegate.m:29: error: 'navController' undeclared (first use in this function)
+/Users/andrew/Documents/AlarmAnimals/Classes/AlarmAnimalsAppDelegate.m:29: error: (Each undeclared identifier is reported only once
+/Users/andrew/Documents/AlarmAnimals/Classes/AlarmAnimalsAppDelegate.m:29: error: for each function it appears in.)

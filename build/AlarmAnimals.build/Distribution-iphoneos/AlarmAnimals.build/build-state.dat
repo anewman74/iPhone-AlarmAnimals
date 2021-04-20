@@ -1,0 +1,1746 @@
+TAlarmAnimals
+v7
+r0
+t327819741.677823
+cCheck dependencies
+cCpResource build/Distribution-iphoneos/AlarmAnimals.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/Info.plist AlarmAnimals-Info.plist
+cCompileXIB /Users/andrew/Documents/AlarmAnimals/MainWindow.xib
+cCopyPNGFile /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/question.png Images/question.png
+cCopyPNGFile /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/smiling.png Images/smiling.png
+cCompileXIB /Users/andrew/Documents/AlarmAnimals/AboutView.xib
+cCopyPNGFile /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/about.png Images/about.png
+cCompileXIB /Users/andrew/Documents/AlarmAnimals/AlarmAnimalsView.xib
+cCopyPNGFile "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/animal alarm320.png" "Images/animal alarm320.png"
+cCompileXIB /Users/andrew/Documents/AlarmAnimals/ChooseTimeView.xib
+cCompileXIB /Users/andrew/Documents/AlarmAnimals/FinalScreenView.xib
+cCpResource build/Distribution-iphoneos/AlarmAnimals.app/CatsMeow.mp3 Audio/CatsMeow.mp3
+cCpResource build/Distribution-iphoneos/AlarmAnimals.app/CowsMoo.mp3 Audio/CowsMoo.mp3
+cCpResource build/Distribution-iphoneos/AlarmAnimals.app/Donkey.mp3 Audio/Donkey.mp3
+cCpResource build/Distribution-iphoneos/AlarmAnimals.app/Ducks.mp3 Audio/Ducks.mp3
+cCpResource build/Distribution-iphoneos/AlarmAnimals.app/Elephants.mp3 Audio/Elephants.mp3
+cCpResource build/Distribution-iphoneos/AlarmAnimals.app/Goats.mp3 Audio/Goats.mp3
+cCpResource build/Distribution-iphoneos/AlarmAnimals.app/Horse.mp3 Audio/Horse.mp3
+cCpResource build/Distribution-iphoneos/AlarmAnimals.app/Lions.mp3 Audio/Lions.mp3
+cCpResource "build/Distribution-iphoneos/AlarmAnimals.app/Morning Songbirds.mp3" "Audio/Morning Songbirds.mp3"
+cCpResource build/Distribution-iphoneos/AlarmAnimals.app/Owls.mp3 Audio/Owls.mp3
+cCpResource build/Distribution-iphoneos/AlarmAnimals.app/Songbirds.mp3 Audio/Songbirds.mp3
+cCompileXIB /Users/andrew/Documents/AlarmAnimals/ChooseAudioView.xib
+cCopyPNGFile /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/icon.png Images/icon.png
+cCopyPNGFile /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/Default.png Images/Default.png
+cCopyPNGFile /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/url.png Images/url.png
+cCpResource build/Distribution-iphoneos/AlarmAnimals.app/Bear.mp3 Audio/Bear.mp3
+cCpResource build/Distribution-iphoneos/AlarmAnimals.app/Coyote.mp3 Audio/Coyote.mp3
+cCpResource build/Distribution-iphoneos/AlarmAnimals.app/Sheep.mp3 Audio/Sheep.mp3
+cCpResource build/Distribution-iphoneos/AlarmAnimals.app/Rooster.mp3 Audio/Rooster.mp3
+cProcessPCH /var/folders/D+/D+RF4NkiEL8D6TmCllgolU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AlarmAnimals_Prefix-eesyeiihpcyxrmcfjkcsxeaycicf/AlarmAnimals_Prefix.pch.gch AlarmAnimals_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/D+/D+RF4NkiEL8D6TmCllgolU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AlarmAnimals_Prefix-cwggcqyubqzojvbrpwybppmfdann/AlarmAnimals_Prefix.pch.gch AlarmAnimals_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/main.o /Users/andrew/Documents/AlarmAnimals/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/AlarmAnimalsAppDelegate.o /Users/andrew/Documents/AlarmAnimals/Classes/AlarmAnimalsAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/AboutViewController.o /Users/andrew/Documents/AlarmAnimals/Classes/AboutViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/NavController.o /Users/andrew/Documents/AlarmAnimals/Classes/NavController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/AlarmAnimalsViewController.o /Users/andrew/Documents/AlarmAnimals/Classes/AlarmAnimalsViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/ChooseTimeViewController.o /Users/andrew/Documents/AlarmAnimals/Classes/ChooseTimeViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/ArchivingClass.o /Users/andrew/Documents/AlarmAnimals/Classes/ArchivingClass.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/FinalScreen.o /Users/andrew/Documents/AlarmAnimals/Classes/FinalScreen.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/Singleton.o /Users/andrew/Documents/AlarmAnimals/Classes/Singleton.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/ChooseAudioViewController.o /Users/andrew/Documents/AlarmAnimals/Classes/ChooseAudioViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/main.o /Users/andrew/Documents/AlarmAnimals/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/AlarmAnimalsAppDelegate.o /Users/andrew/Documents/AlarmAnimals/Classes/AlarmAnimalsAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/AboutViewController.o /Users/andrew/Documents/AlarmAnimals/Classes/AboutViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/NavController.o /Users/andrew/Documents/AlarmAnimals/Classes/NavController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/AlarmAnimalsViewController.o /Users/andrew/Documents/AlarmAnimals/Classes/AlarmAnimalsViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/ChooseTimeViewController.o /Users/andrew/Documents/AlarmAnimals/Classes/ChooseTimeViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/ArchivingClass.o /Users/andrew/Documents/AlarmAnimals/Classes/ArchivingClass.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/FinalScreen.o /Users/andrew/Documents/AlarmAnimals/Classes/FinalScreen.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/Singleton.o /Users/andrew/Documents/AlarmAnimals/Classes/Singleton.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/AlarmAnimals normal armv6
+cCompileC build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/ChooseAudioViewController.o /Users/andrew/Documents/AlarmAnimals/Classes/ChooseAudioViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/AlarmAnimals normal armv7
+cCreateUniversalBinary /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/AlarmAnimals normal "armv6 armv7"
+cGenerateDSYMFile /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app.dSYM /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/AlarmAnimals
+cProcessProductPackaging "/Users/andrew/Library/MobileDevice/Provisioning Profiles/515F388A-6D98-4FAB-8841-4700ED00FC49.mobileprovision" /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/embedded.mobileprovision
+cTouch /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals.xcent
+cCodeSign /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app
+cValidate /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk
+c000000004C6DE9E30000000000000110
+t1282271715
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
+c000000004C578FA900000000000001A7
+t1280806825
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+c000000004C578FA900000000000001E5
+t1280806825
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004C68BB8400000000001D26C0
+t1281932164
+s1910464
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVAudioPlayer.h
+c000000004C68BB780000000000001449
+t1281932152
+s5193
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A51050000000000345F00
+t1280987397
+s3432192
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A52B100000000003E1EF0
+t1280987825
+s4071152
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A527F0000000000001466
+t1280987775
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C62427000000000000009CD
+t1281507952
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C62430F0000000002EBC2B0
+t1281508111
+s49005232
+
+N/Users/andrew/Documents/AlarmAnimals/AboutView.xib
+c000000004DCECAB20000000000004E92
+t1305397938
+s20114
+
+N/Users/andrew/Documents/AlarmAnimals/AlarmAnimalsView.xib
+c000000004DC6BF840000000000004DDB
+t1304870788
+s19931
+
+N/Users/andrew/Documents/AlarmAnimals/AlarmAnimals_Prefix.pch
+c000000004DC6B31600000000000000C1
+t1304867606
+s193
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andrew/Documents/AlarmAnimals/Audio/Bear.mp3
+c000000004DD1FD040000000000030E49
+t1305607428
+s200265
+
+N/Users/andrew/Documents/AlarmAnimals/Audio/CatsMeow.mp3
+c000000004DD289B60000000000013625
+t1305643446
+s79397
+
+N/Users/andrew/Documents/AlarmAnimals/Audio/CowsMoo.mp3
+c000000004DC33B5400000000000352DE
+t1304640340
+s217822
+
+N/Users/andrew/Documents/AlarmAnimals/Audio/Coyote.mp3
+c000000004DD9DBC20000000000030706
+t1306123202
+s198406
+
+N/Users/andrew/Documents/AlarmAnimals/Audio/Donkey.mp3
+c000000004DC33B3A00000000000298BE
+t1304640314
+s170174
+
+N/Users/andrew/Documents/AlarmAnimals/Audio/Ducks.mp3
+c000000004DC33B30000000000001AB30
+t1304640304
+s109360
+
+N/Users/andrew/Documents/AlarmAnimals/Audio/Elephants.mp3
+c000000004DC33B24000000000002DAE0
+t1304640292
+s187104
+
+N/Users/andrew/Documents/AlarmAnimals/Audio/Goats.mp3
+c000000004DC33B1A0000000000015579
+t1304640282
+s87417
+
+N/Users/andrew/Documents/AlarmAnimals/Audio/Horse.mp3
+c000000004DC33B100000000000014E20
+t1304640272
+s85536
+
+N/Users/andrew/Documents/AlarmAnimals/Audio/Lions.mp3
+c000000004DC33B040000000000028526
+t1304640260
+s165158
+
+N/Users/andrew/Documents/AlarmAnimals/Audio/Morning Songbirds.mp3
+c000000004DC33AF80000000000033F51
+t1304640248
+s212817
+
+N/Users/andrew/Documents/AlarmAnimals/Audio/Owls.mp3
+c000000004DC33AEC000000000001AB2F
+t1304640236
+s109359
+
+N/Users/andrew/Documents/AlarmAnimals/Audio/Rooster.mp3
+c000000004DD9E878000000000002CA3D
+t1306126456
+s182845
+
+N/Users/andrew/Documents/AlarmAnimals/Audio/Sheep.mp3
+c000000004DD9E8A00000000000016995
+t1306126496
+s92565
+
+N/Users/andrew/Documents/AlarmAnimals/Audio/Songbirds.mp3
+c000000004DC33AC800000000000315A7
+t1304640200
+s202151
+
+N/Users/andrew/Documents/AlarmAnimals/ChooseAudioView.xib
+c000000004DC6CD4E00000000000074C7
+t1304874318
+s29895
+
+N/Users/andrew/Documents/AlarmAnimals/ChooseTimeView.xib
+c000000004DC730C4000000000000615A
+t1304899780
+s24922
+
+N/Users/andrew/Documents/AlarmAnimals/Classes/AboutViewController.h
+c000000004DD4BEBF000000000000010B
+t1305788095
+s267
+i<UIKit/UIKit.h>
+
+N/Users/andrew/Documents/AlarmAnimals/Classes/AboutViewController.m
+c000000004DD4BEBF0000000000000315
+t1305788095
+s789
+i"AboutViewController.h"
+
+N/Users/andrew/Documents/AlarmAnimals/Classes/AlarmAnimalsAppDelegate.h
+c000000004DD4BEBF000000000000025C
+t1305788095
+s604
+i<UIKit/UIKit.h>
+
+N/Users/andrew/Documents/AlarmAnimals/Classes/AlarmAnimalsAppDelegate.m
+c000000004DD4BEBF0000000000000295
+t1305788095
+s661
+i"AlarmAnimalsAppDelegate.h"
+
+N/Users/andrew/Documents/AlarmAnimals/Classes/AlarmAnimalsViewController.h
+c000000004DD4BEBF00000000000001CA
+t1305788095
+s458
+i<UIKit/UIKit.h>
+
+N/Users/andrew/Documents/AlarmAnimals/Classes/AlarmAnimalsViewController.m
+c000000004DD4BEBF000000000000060A
+t1305788095
+s1546
+i"AlarmAnimalsViewController.h"
+i"AlarmAnimalsAppDelegate.h"
+i"ChooseTimeViewController.h"
+
+N/Users/andrew/Documents/AlarmAnimals/Classes/ArchivingClass.h
+c000000004DD4BEBF00000000000001C8
+t1305788095
+s456
+i<Foundation/Foundation.h>
+
+N/Users/andrew/Documents/AlarmAnimals/Classes/ArchivingClass.m
+c000000004DD4BEBF0000000000000373
+t1305788095
+s883
+i"ArchivingClass.h"
+
+N/Users/andrew/Documents/AlarmAnimals/Classes/ChooseAudioViewController.h
+c000000004DD4BEBF0000000000000BBB
+t1305788095
+s3003
+i<UIKit/UIKit.h>
+
+N/Users/andrew/Documents/AlarmAnimals/Classes/ChooseAudioViewController.m
+c000000004DD4BEBF0000000000006B79
+t1305788095
+s27513
+i"ChooseAudioViewController.h"
+i<AVFoundation/AVAudioPlayer.h>
+i"AlarmAnimalsAppDelegate.h"
+i"Singleton.h"
+i"FinalScreen.h"
+
+N/Users/andrew/Documents/AlarmAnimals/Classes/ChooseTimeViewController.h
+c000000004DD4BEBF000000000000076E
+t1305788095
+s1902
+i<UIKit/UIKit.h>
+
+N/Users/andrew/Documents/AlarmAnimals/Classes/ChooseTimeViewController.m
+c000000004DD4BEBF000000000000296B
+t1305788095
+s10603
+i"ChooseTimeViewController.h"
+i"AlarmAnimalsAppDelegate.h"
+i"ChooseAudioViewController.h"
+i"Singleton.h"
+i"ArchivingClass.h"
+
+N/Users/andrew/Documents/AlarmAnimals/Classes/FinalScreen.h
+c000000004DD4BEBF00000000000000E9
+t1305788095
+s233
+i<UIKit/UIKit.h>
+
+N/Users/andrew/Documents/AlarmAnimals/Classes/FinalScreen.m
+c000000004DD4BEBF0000000000000614
+t1305788095
+s1556
+i"FinalScreen.h"
+
+N/Users/andrew/Documents/AlarmAnimals/Classes/NavController.h
+c000000004DD4BEBF00000000000000F5
+t1305788095
+s245
+i<UIKit/UIKit.h>
+
+N/Users/andrew/Documents/AlarmAnimals/Classes/NavController.m
+c000000004DD4BEBF0000000000000264
+t1305788095
+s612
+i"NavController.h"
+
+N/Users/andrew/Documents/AlarmAnimals/Classes/Singleton.h
+c000000004DD4BEBF0000000000000327
+t1305788095
+s807
+i<Foundation/Foundation.h>
+
+N/Users/andrew/Documents/AlarmAnimals/Classes/Singleton.m
+c000000004DD4BEBF0000000000000546
+t1305788095
+s1350
+i"Singleton.h"
+
+N/Users/andrew/Documents/AlarmAnimals/FinalScreenView.xib
+c000000004DC6C7EA00000000000038C2
+t1304872938
+s14530
+
+N/Users/andrew/Documents/AlarmAnimals/Images/Default.png
+c000000004DC5EFCA000000000008BD5F
+t1304817610
+s572767
+
+N/Users/andrew/Documents/AlarmAnimals/Images/about.png
+c000000004DCEC8B200000000000085AE
+t1305397426
+s34222
+
+N/Users/andrew/Documents/AlarmAnimals/Images/animal alarm320.png
+c000000004DC6BAA2000000000001443E
+t1304869538
+s83006
+
+N/Users/andrew/Documents/AlarmAnimals/Images/icon.png
+c000000004DC6BA9C0000000000002101
+t1304869532
+s8449
+
+N/Users/andrew/Documents/AlarmAnimals/Images/question.png
+c000000004C3945280000000000000DBA
+t1278821672
+s3514
+
+N/Users/andrew/Documents/AlarmAnimals/Images/smiling.png
+c000000004C3201440000000000000E35
+t1278345540
+s3637
+
+N/Users/andrew/Documents/AlarmAnimals/Images/url.png
+c000000004DCEC99000000000000014DE
+t1305397648
+s5342
+
+N/Users/andrew/Documents/AlarmAnimals/MainWindow.xib
+c000000004DC6BF100000000000007B58
+t1304870672
+s31576
+
+N/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Alarm Animals.xcent
+t1306125963
+s421
+
+N/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals.xcent
+t1306126934
+s421
+
+N/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/AboutViewController.o
+t1306126931
+s38984
+
+N/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/Alarm Animals
+t1306125962
+s82636
+
+N/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/Alarm Animals.LinkFileList
+c000000004DD9E681000000000000059E
+t1306125953
+s1438
+
+N/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/AlarmAnimals
+t1306126933
+s82636
+
+N/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/AlarmAnimals.LinkFileList
+c000000004DD9EA4C000000000000059E
+t1306126924
+s1438
+
+N/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/AlarmAnimalsAppDelegate.o
+t1306126931
+s48648
+
+N/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/AlarmAnimalsViewController.o
+t1306126931
+s49632
+
+N/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/ArchivingClass.o
+t1306126931
+s11556
+
+N/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/ChooseAudioViewController.o
+t1306126933
+s109840
+
+N/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/ChooseTimeViewController.o
+t1306126932
+s74908
+
+N/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/FinalScreen.o
+t1306126931
+s34372
+
+N/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/NavController.o
+t1306126931
+s36096
+
+N/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/Singleton.o
+t1306126932
+s12496
+
+N/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/main.o
+t1306126931
+s6440
+
+N/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/AboutViewController.o
+t1306126932
+s38992
+
+N/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/Alarm Animals
+t1306125963
+s82504
+
+N/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/Alarm Animals.LinkFileList
+c000000004DD9E681000000000000059E
+t1306125953
+s1438
+
+N/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/AlarmAnimals
+t1306126934
+s82504
+
+N/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/AlarmAnimals.LinkFileList
+c000000004DD9EA4C000000000000059E
+t1306126924
+s1438
+
+N/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/AlarmAnimalsAppDelegate.o
+t1306126932
+s48652
+
+N/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/AlarmAnimalsViewController.o
+t1306126932
+s49620
+
+N/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/ArchivingClass.o
+t1306126933
+s11552
+
+N/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/ChooseAudioViewController.o
+t1306126934
+s109548
+
+N/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/ChooseTimeViewController.o
+t1306126933
+s74708
+
+N/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/FinalScreen.o
+t1306126933
+s34384
+
+N/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/NavController.o
+t1306126932
+s36108
+
+N/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/Singleton.o
+t1306126933
+s12368
+
+N/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/main.o
+t1306126932
+s6420
+
+N/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app
+t1306125965
+s1258
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app.dSYM
+t1306125963
+s102
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/AboutView.nib
+t1306125954
+s3150
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/Alarm Animals
+t1306125963
+s172616
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/AlarmAnimalsView.nib
+t1306125954
+s3131
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/Bear.mp3
+t1306125956
+s200265
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/CatsMeow.mp3
+t1306125955
+s79397
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/ChooseAudioView.nib
+t1306125955
+s4745
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/ChooseTimeView.nib
+t1306125955
+s3577
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/CowsMoo.mp3
+t1306125955
+s217822
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/Coyote.mp3
+t1306125955
+s198406
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/Default.png
+t1306125959
+s604237
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/Donkey.mp3
+t1306125955
+s170174
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/Ducks.mp3
+t1306125955
+s109360
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/Elephants.mp3
+t1306125955
+s187104
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/FinalScreenView.nib
+t1306125955
+s1196
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/Goats.mp3
+t1306125955
+s87417
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/Horse.mp3
+t1306125955
+s85536
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/Info.plist
+t1306125953
+s805
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/Lions.mp3
+t1306125955
+s165158
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/MainWindow.nib
+t1306125954
+s4006
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/Morning Songbirds.mp3
+t1306125955
+s212817
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/Owls.mp3
+t1306125955
+s109359
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/PkgInfo
+t1306125953
+s8
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/ResourceRules.plist
+t1306125953
+s485
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/Rooster.mp3
+t1306125955
+s140709
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/Sheep.mp3
+t1306125955
+s92437
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/Songbirds.mp3
+t1306125955
+s202151
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/about.png
+t1306125954
+s26858
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/animal alarm320.png
+t1306125955
+s75907
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/embedded.mobileprovision
+t1306125963
+s7112
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/icon.png
+t1306125955
+s8537
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/question.png
+t1306125953
+s3726
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/smiling.png
+t1306125953
+s4131
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/url.png
+t1306125956
+s4834
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app
+t1306126941
+s1258
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app.dSYM
+t1306126934
+s102
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/AboutView.nib
+t1306126925
+s3150
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/AlarmAnimals
+t1306126934
+s172616
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/AlarmAnimalsView.nib
+t1306126925
+s3131
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/Bear.mp3
+t1306126926
+s200265
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/CatsMeow.mp3
+t1306126926
+s79397
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/ChooseAudioView.nib
+t1306126926
+s4745
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/ChooseTimeView.nib
+t1306126925
+s3577
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/CowsMoo.mp3
+t1306126926
+s217822
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/Coyote.mp3
+t1306126926
+s198406
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/Default.png
+t1306126930
+s604237
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/Donkey.mp3
+t1306126926
+s170174
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/Ducks.mp3
+t1306126926
+s109360
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/Elephants.mp3
+t1306126926
+s187104
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/FinalScreenView.nib
+t1306126926
+s1196
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/Goats.mp3
+t1306126926
+s87417
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/Horse.mp3
+t1306126926
+s85536
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/Info.plist
+t1306126924
+s802
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/Lions.mp3
+t1306126926
+s165158
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/MainWindow.nib
+t1306126924
+s4006
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/Morning Songbirds.mp3
+t1306126926
+s212817
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/Owls.mp3
+t1306126926
+s109359
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/PkgInfo
+t1306126924
+s8
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/ResourceRules.plist
+t1306126924
+s485
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/Rooster.mp3
+t1306126926
+s182845
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/Sheep.mp3
+t1306126926
+s92565
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/Songbirds.mp3
+t1306126926
+s202151
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/about.png
+t1306126925
+s26858
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/animal alarm320.png
+t1306126925
+s75907
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/embedded.mobileprovision
+t1306126934
+s7112
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/icon.png
+t1306126926
+s8537
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/question.png
+t1306126924
+s3726
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/smiling.png
+t1306126924
+s4131
+
+N/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/url.png
+t1306126926
+s4834
+
+N/Users/andrew/Documents/AlarmAnimals/main.m
+c000000004DC6B3160000000000000167
+t1304867606
+s359
+i<UIKit/UIKit.h>
+
+N/Users/andrew/Library/MobileDevice/Provisioning Profiles/515F388A-6D98-4FAB-8841-4700ED00FC49.mobileprovision
+c000000004DD4B4730000000000001BC8
+t1305785459
+s7112
+
+N/var/folders/D+/D+RF4NkiEL8D6TmCllgolU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AlarmAnimals_Prefix-cwggcqyubqzojvbrpwybppmfdann/AlarmAnimals_Prefix.pch.gch
+t1306126931
+s10114608
+
+N/var/folders/D+/D+RF4NkiEL8D6TmCllgolU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AlarmAnimals_Prefix-eesyeiihpcyxrmcfjkcsxeaycicf/AlarmAnimals_Prefix.pch.gch
+t1306126931
+s9659952
+
+NAlarmAnimals-Info.plist
+c000000004DD4B63600000000000003A2
+t1305785910
+s930
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies327819724#327819724#0(0"0(0#1#0"8625331296#0"0#
+
+CCodeSign "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app"
+s327818763.485132
+e327818765.664668
+r1
+xCodeSign
+x/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app
+lSLF07#2@56"CodeSign "build/Distribution-iphoneos/Alarm Animals.app"327818763#327818765#0(0"0(0#0#82"/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app8624151552#700"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Distribution: Lighten Up/ Enterprises LLC" "--resource-rules=/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/ResourceRules.plist" --entitlements "/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Alarm Animals.xcent" "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app"0#
+
+CCodeSign /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app
+s327819734.571040
+e327819741.498883
+r1
+xCodeSign
+x/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app
+lSLF07#2@53"CodeSign build/Distribution-iphoneos/AlarmAnimals.app327819734#327819741#0(0"0(0#0#81"/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app8621704896#691"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Distribution: Lighten Up/ Enterprises LLC" --resource-rules=/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/ResourceRules.plist --entitlements /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals.xcent /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app0#
+
+CCompileC build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/AboutViewController.o /Users/andrew/Documents/AlarmAnimals/Classes/AboutViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s327819731.537153
+e327819731.654374
+r1
+xCompileC
+xbuild/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/AboutViewController.o
+x/Users/andrew/Documents/AlarmAnimals/Classes/AboutViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/andrew/Documents/AlarmAnimals/Classes/AboutViewController.m327819731#327819731#0(0"0(0#0#66"/Users/andrew/Documents/AlarmAnimals/Classes/AboutViewController.m8603002336#1944"    cd /Users/andrew/Documents/AlarmAnimals    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-generated-files.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-own-target-headers.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-all-target-headers.hmap -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-project-headers.hmap -F/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos -I/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/include -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources/armv6 -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D+/D+RF4NkiEL8D6TmCllgolU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AlarmAnimals_Prefix-eesyeiihpcyxrmcfjkcsxeaycicf/AlarmAnimals_Prefix.pch -c /Users/andrew/Documents/AlarmAnimals/Classes/AboutViewController.m -o /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/AboutViewController.o0#
+
+CCompileC build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/AlarmAnimalsAppDelegate.o /Users/andrew/Documents/AlarmAnimals/Classes/AlarmAnimalsAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s327819731.464983
+e327819731.582720
+r1
+xCompileC
+xbuild/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/AlarmAnimalsAppDelegate.o
+x/Users/andrew/Documents/AlarmAnimals/Classes/AlarmAnimalsAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/andrew/Documents/AlarmAnimals/Classes/AlarmAnimalsAppDelegate.m327819731#327819731#0(0"0(0#0#70"/Users/andrew/Documents/AlarmAnimals/Classes/AlarmAnimalsAppDelegate.m8616856064#1952"    cd /Users/andrew/Documents/AlarmAnimals    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-generated-files.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-own-target-headers.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-all-target-headers.hmap -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-project-headers.hmap -F/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos -I/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/include -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources/armv6 -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D+/D+RF4NkiEL8D6TmCllgolU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AlarmAnimals_Prefix-eesyeiihpcyxrmcfjkcsxeaycicf/AlarmAnimals_Prefix.pch -c /Users/andrew/Documents/AlarmAnimals/Classes/AlarmAnimalsAppDelegate.m -o /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/AlarmAnimalsAppDelegate.o0#
+
+CCompileC build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/AlarmAnimalsViewController.o /Users/andrew/Documents/AlarmAnimals/Classes/AlarmAnimalsViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s327819731.654483
+e327819731.789802
+r1
+xCompileC
+xbuild/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/AlarmAnimalsViewController.o
+x/Users/andrew/Documents/AlarmAnimals/Classes/AlarmAnimalsViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/andrew/Documents/AlarmAnimals/Classes/AlarmAnimalsViewController.m327819731#327819731#0(0"0(0#0#73"/Users/andrew/Documents/AlarmAnimals/Classes/AlarmAnimalsViewController.m8625000416#1958"    cd /Users/andrew/Documents/AlarmAnimals    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-generated-files.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-own-target-headers.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-all-target-headers.hmap -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-project-headers.hmap -F/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos -I/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/include -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources/armv6 -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D+/D+RF4NkiEL8D6TmCllgolU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AlarmAnimals_Prefix-eesyeiihpcyxrmcfjkcsxeaycicf/AlarmAnimals_Prefix.pch -c /Users/andrew/Documents/AlarmAnimals/Classes/AlarmAnimalsViewController.m -o /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/AlarmAnimalsViewController.o0#
+
+CCompileC build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/ArchivingClass.o /Users/andrew/Documents/AlarmAnimals/Classes/ArchivingClass.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s327819731.789901
+e327819731.890181
+r1
+xCompileC
+xbuild/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/ArchivingClass.o
+x/Users/andrew/Documents/AlarmAnimals/Classes/ArchivingClass.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/andrew/Documents/AlarmAnimals/Classes/ArchivingClass.m327819731#327819731#0(0"0(0#0#61"/Users/andrew/Documents/AlarmAnimals/Classes/ArchivingClass.m8616946144#1934"    cd /Users/andrew/Documents/AlarmAnimals    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-generated-files.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-own-target-headers.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-all-target-headers.hmap -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-project-headers.hmap -F/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos -I/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/include -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources/armv6 -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D+/D+RF4NkiEL8D6TmCllgolU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AlarmAnimals_Prefix-eesyeiihpcyxrmcfjkcsxeaycicf/AlarmAnimals_Prefix.pch -c /Users/andrew/Documents/AlarmAnimals/Classes/ArchivingClass.m -o /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/ArchivingClass.o0#
+
+CCompileC build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/ChooseAudioViewController.o /Users/andrew/Documents/AlarmAnimals/Classes/ChooseAudioViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s327819732.092104
+e327819733.460672
+r1
+xCompileC
+xbuild/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/ChooseAudioViewController.o
+x/Users/andrew/Documents/AlarmAnimals/Classes/ChooseAudioViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/andrew/Documents/AlarmAnimals/Classes/ChooseAudioViewController.m327819732#327819733#0(0"0(0#0#72"/Users/andrew/Documents/AlarmAnimals/Classes/ChooseAudioViewController.m8623571008#1956"    cd /Users/andrew/Documents/AlarmAnimals    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-generated-files.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-own-target-headers.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-all-target-headers.hmap -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-project-headers.hmap -F/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos -I/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/include -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources/armv6 -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D+/D+RF4NkiEL8D6TmCllgolU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AlarmAnimals_Prefix-eesyeiihpcyxrmcfjkcsxeaycicf/AlarmAnimals_Prefix.pch -c /Users/andrew/Documents/AlarmAnimals/Classes/ChooseAudioViewController.m -o /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/ChooseAudioViewController.o0#
+
+CCompileC build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/ChooseTimeViewController.o /Users/andrew/Documents/AlarmAnimals/Classes/ChooseTimeViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s327819731.685761
+e327819732.249617
+r1
+xCompileC
+xbuild/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/ChooseTimeViewController.o
+x/Users/andrew/Documents/AlarmAnimals/Classes/ChooseTimeViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/andrew/Documents/AlarmAnimals/Classes/ChooseTimeViewController.m327819731#327819732#0(0"0(0#0#71"/Users/andrew/Documents/AlarmAnimals/Classes/ChooseTimeViewController.m8624404544#1954"    cd /Users/andrew/Documents/AlarmAnimals    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-generated-files.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-own-target-headers.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-all-target-headers.hmap -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-project-headers.hmap -F/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos -I/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/include -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources/armv6 -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D+/D+RF4NkiEL8D6TmCllgolU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AlarmAnimals_Prefix-eesyeiihpcyxrmcfjkcsxeaycicf/AlarmAnimals_Prefix.pch -c /Users/andrew/Documents/AlarmAnimals/Classes/ChooseTimeViewController.m -o /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/ChooseTimeViewController.o0#
+
+CCompileC build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/FinalScreen.o /Users/andrew/Documents/AlarmAnimals/Classes/FinalScreen.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s327819731.890290
+e327819731.984677
+r1
+xCompileC
+xbuild/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/FinalScreen.o
+x/Users/andrew/Documents/AlarmAnimals/Classes/FinalScreen.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/andrew/Documents/AlarmAnimals/Classes/FinalScreen.m327819731#327819731#0(0"0(0#0#58"/Users/andrew/Documents/AlarmAnimals/Classes/FinalScreen.m8606530880#1928"    cd /Users/andrew/Documents/AlarmAnimals    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-generated-files.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-own-target-headers.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-all-target-headers.hmap -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-project-headers.hmap -F/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos -I/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/include -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources/armv6 -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D+/D+RF4NkiEL8D6TmCllgolU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AlarmAnimals_Prefix-eesyeiihpcyxrmcfjkcsxeaycicf/AlarmAnimals_Prefix.pch -c /Users/andrew/Documents/AlarmAnimals/Classes/FinalScreen.m -o /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/FinalScreen.o0#
+
+CCompileC build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/NavController.o /Users/andrew/Documents/AlarmAnimals/Classes/NavController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s327819731.582833
+e327819731.685652
+r1
+xCompileC
+xbuild/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/NavController.o
+x/Users/andrew/Documents/AlarmAnimals/Classes/NavController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/andrew/Documents/AlarmAnimals/Classes/NavController.m327819731#327819731#0(0"0(0#0#60"/Users/andrew/Documents/AlarmAnimals/Classes/NavController.m8624053952#1932"    cd /Users/andrew/Documents/AlarmAnimals    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-generated-files.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-own-target-headers.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-all-target-headers.hmap -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-project-headers.hmap -F/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos -I/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/include -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources/armv6 -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D+/D+RF4NkiEL8D6TmCllgolU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AlarmAnimals_Prefix-eesyeiihpcyxrmcfjkcsxeaycicf/AlarmAnimals_Prefix.pch -c /Users/andrew/Documents/AlarmAnimals/Classes/NavController.m -o /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/NavController.o0#
+
+CCompileC build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/Singleton.o /Users/andrew/Documents/AlarmAnimals/Classes/Singleton.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s327819731.984781
+e327819732.091918
+r1
+xCompileC
+xbuild/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/Singleton.o
+x/Users/andrew/Documents/AlarmAnimals/Classes/Singleton.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/andrew/Documents/AlarmAnimals/Classes/Singleton.m327819731#327819732#0(0"0(0#0#56"/Users/andrew/Documents/AlarmAnimals/Classes/Singleton.m8624746272#1924"    cd /Users/andrew/Documents/AlarmAnimals    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-generated-files.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-own-target-headers.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-all-target-headers.hmap -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-project-headers.hmap -F/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos -I/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/include -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources/armv6 -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D+/D+RF4NkiEL8D6TmCllgolU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AlarmAnimals_Prefix-eesyeiihpcyxrmcfjkcsxeaycicf/AlarmAnimals_Prefix.pch -c /Users/andrew/Documents/AlarmAnimals/Classes/Singleton.m -o /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/Singleton.o0#
+
+CCompileC build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/main.o /Users/andrew/Documents/AlarmAnimals/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s327819731.463760
+e327819731.537045
+r1
+xCompileC
+xbuild/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/main.o
+x/Users/andrew/Documents/AlarmAnimals/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/andrew/Documents/AlarmAnimals/main.m327819731#327819731#0(0"0(0#0#43"/Users/andrew/Documents/AlarmAnimals/main.m8623037024#1906"    cd /Users/andrew/Documents/AlarmAnimals    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-generated-files.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-own-target-headers.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-all-target-headers.hmap -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-project-headers.hmap -F/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos -I/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/include -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources/armv6 -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D+/D+RF4NkiEL8D6TmCllgolU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AlarmAnimals_Prefix-eesyeiihpcyxrmcfjkcsxeaycicf/AlarmAnimals_Prefix.pch -c /Users/andrew/Documents/AlarmAnimals/main.m -o /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/AboutViewController.o /Users/andrew/Documents/AlarmAnimals/Classes/AboutViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327819732.441250
+e327819732.531307
+r1
+xCompileC
+xbuild/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/AboutViewController.o
+x/Users/andrew/Documents/AlarmAnimals/Classes/AboutViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/andrew/Documents/AlarmAnimals/Classes/AboutViewController.m327819732#327819732#0(0"0(0#0#66"/Users/andrew/Documents/AlarmAnimals/Classes/AboutViewController.m8625240672#1944"    cd /Users/andrew/Documents/AlarmAnimals    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-generated-files.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-own-target-headers.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-all-target-headers.hmap -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-project-headers.hmap -F/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos -I/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/include -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources/armv7 -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D+/D+RF4NkiEL8D6TmCllgolU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AlarmAnimals_Prefix-cwggcqyubqzojvbrpwybppmfdann/AlarmAnimals_Prefix.pch -c /Users/andrew/Documents/AlarmAnimals/Classes/AboutViewController.m -o /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/AboutViewController.o0#
+
+CCompileC build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/AlarmAnimalsAppDelegate.o /Users/andrew/Documents/AlarmAnimals/Classes/AlarmAnimalsAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327819732.311339
+e327819732.441147
+r1
+xCompileC
+xbuild/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/AlarmAnimalsAppDelegate.o
+x/Users/andrew/Documents/AlarmAnimals/Classes/AlarmAnimalsAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/andrew/Documents/AlarmAnimals/Classes/AlarmAnimalsAppDelegate.m327819732#327819732#0(0"0(0#0#70"/Users/andrew/Documents/AlarmAnimals/Classes/AlarmAnimalsAppDelegate.m8623605600#1952"    cd /Users/andrew/Documents/AlarmAnimals    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-generated-files.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-own-target-headers.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-all-target-headers.hmap -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-project-headers.hmap -F/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos -I/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/include -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources/armv7 -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D+/D+RF4NkiEL8D6TmCllgolU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AlarmAnimals_Prefix-cwggcqyubqzojvbrpwybppmfdann/AlarmAnimals_Prefix.pch -c /Users/andrew/Documents/AlarmAnimals/Classes/AlarmAnimalsAppDelegate.m -o /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/AlarmAnimalsAppDelegate.o0#
+
+CCompileC build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/AlarmAnimalsViewController.o /Users/andrew/Documents/AlarmAnimals/Classes/AlarmAnimalsViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327819732.617510
+e327819732.785663
+r1
+xCompileC
+xbuild/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/AlarmAnimalsViewController.o
+x/Users/andrew/Documents/AlarmAnimals/Classes/AlarmAnimalsViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/andrew/Documents/AlarmAnimals/Classes/AlarmAnimalsViewController.m327819732#327819732#0(0"0(0#0#73"/Users/andrew/Documents/AlarmAnimals/Classes/AlarmAnimalsViewController.m8616787840#1958"    cd /Users/andrew/Documents/AlarmAnimals    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-generated-files.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-own-target-headers.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-all-target-headers.hmap -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-project-headers.hmap -F/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos -I/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/include -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources/armv7 -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D+/D+RF4NkiEL8D6TmCllgolU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AlarmAnimals_Prefix-cwggcqyubqzojvbrpwybppmfdann/AlarmAnimals_Prefix.pch -c /Users/andrew/Documents/AlarmAnimals/Classes/AlarmAnimalsViewController.m -o /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/AlarmAnimalsViewController.o0#
+
+CCompileC build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/ArchivingClass.o /Users/andrew/Documents/AlarmAnimals/Classes/ArchivingClass.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327819733.188168
+e327819733.283783
+r1
+xCompileC
+xbuild/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/ArchivingClass.o
+x/Users/andrew/Documents/AlarmAnimals/Classes/ArchivingClass.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/andrew/Documents/AlarmAnimals/Classes/ArchivingClass.m327819733#327819733#0(0"0(0#0#61"/Users/andrew/Documents/AlarmAnimals/Classes/ArchivingClass.m8624894016#1934"    cd /Users/andrew/Documents/AlarmAnimals    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-generated-files.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-own-target-headers.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-all-target-headers.hmap -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-project-headers.hmap -F/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos -I/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/include -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources/armv7 -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D+/D+RF4NkiEL8D6TmCllgolU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AlarmAnimals_Prefix-cwggcqyubqzojvbrpwybppmfdann/AlarmAnimals_Prefix.pch -c /Users/andrew/Documents/AlarmAnimals/Classes/ArchivingClass.m -o /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/ArchivingClass.o0#
+
+CCompileC build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/ChooseAudioViewController.o /Users/andrew/Documents/AlarmAnimals/Classes/ChooseAudioViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327819733.503216
+e327819734.453767
+r1
+xCompileC
+xbuild/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/ChooseAudioViewController.o
+x/Users/andrew/Documents/AlarmAnimals/Classes/ChooseAudioViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/andrew/Documents/AlarmAnimals/Classes/ChooseAudioViewController.m327819733#327819734#0(0"0(0#0#72"/Users/andrew/Documents/AlarmAnimals/Classes/ChooseAudioViewController.m8622070624#1956"    cd /Users/andrew/Documents/AlarmAnimals    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-generated-files.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-own-target-headers.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-all-target-headers.hmap -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-project-headers.hmap -F/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos -I/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/include -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources/armv7 -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D+/D+RF4NkiEL8D6TmCllgolU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AlarmAnimals_Prefix-cwggcqyubqzojvbrpwybppmfdann/AlarmAnimals_Prefix.pch -c /Users/andrew/Documents/AlarmAnimals/Classes/ChooseAudioViewController.m -o /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/ChooseAudioViewController.o0#
+
+CCompileC build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/ChooseTimeViewController.o /Users/andrew/Documents/AlarmAnimals/Classes/ChooseTimeViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327819732.785769
+e327819733.188062
+r1
+xCompileC
+xbuild/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/ChooseTimeViewController.o
+x/Users/andrew/Documents/AlarmAnimals/Classes/ChooseTimeViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/andrew/Documents/AlarmAnimals/Classes/ChooseTimeViewController.m327819732#327819733#0(0"0(0#0#71"/Users/andrew/Documents/AlarmAnimals/Classes/ChooseTimeViewController.m8624193536#1954"    cd /Users/andrew/Documents/AlarmAnimals    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-generated-files.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-own-target-headers.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-all-target-headers.hmap -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-project-headers.hmap -F/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos -I/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/include -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources/armv7 -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D+/D+RF4NkiEL8D6TmCllgolU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AlarmAnimals_Prefix-cwggcqyubqzojvbrpwybppmfdann/AlarmAnimals_Prefix.pch -c /Users/andrew/Documents/AlarmAnimals/Classes/ChooseTimeViewController.m -o /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/ChooseTimeViewController.o0#
+
+CCompileC build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/FinalScreen.o /Users/andrew/Documents/AlarmAnimals/Classes/FinalScreen.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327819733.283888
+e327819733.378577
+r1
+xCompileC
+xbuild/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/FinalScreen.o
+x/Users/andrew/Documents/AlarmAnimals/Classes/FinalScreen.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/andrew/Documents/AlarmAnimals/Classes/FinalScreen.m327819733#327819733#0(0"0(0#0#58"/Users/andrew/Documents/AlarmAnimals/Classes/FinalScreen.m8623963488#1928"    cd /Users/andrew/Documents/AlarmAnimals    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-generated-files.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-own-target-headers.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-all-target-headers.hmap -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-project-headers.hmap -F/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos -I/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/include -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources/armv7 -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D+/D+RF4NkiEL8D6TmCllgolU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AlarmAnimals_Prefix-cwggcqyubqzojvbrpwybppmfdann/AlarmAnimals_Prefix.pch -c /Users/andrew/Documents/AlarmAnimals/Classes/FinalScreen.m -o /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/FinalScreen.o0#
+
+CCompileC build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/NavController.o /Users/andrew/Documents/AlarmAnimals/Classes/NavController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327819732.531412
+e327819732.617352
+r1
+xCompileC
+xbuild/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/NavController.o
+x/Users/andrew/Documents/AlarmAnimals/Classes/NavController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/andrew/Documents/AlarmAnimals/Classes/NavController.m327819732#327819732#0(0"0(0#0#60"/Users/andrew/Documents/AlarmAnimals/Classes/NavController.m8623658336#1932"    cd /Users/andrew/Documents/AlarmAnimals    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-generated-files.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-own-target-headers.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-all-target-headers.hmap -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-project-headers.hmap -F/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos -I/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/include -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources/armv7 -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D+/D+RF4NkiEL8D6TmCllgolU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AlarmAnimals_Prefix-cwggcqyubqzojvbrpwybppmfdann/AlarmAnimals_Prefix.pch -c /Users/andrew/Documents/AlarmAnimals/Classes/NavController.m -o /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/NavController.o0#
+
+CCompileC build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/Singleton.o /Users/andrew/Documents/AlarmAnimals/Classes/Singleton.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327819733.378684
+e327819733.518861
+r1
+xCompileC
+xbuild/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/Singleton.o
+x/Users/andrew/Documents/AlarmAnimals/Classes/Singleton.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/andrew/Documents/AlarmAnimals/Classes/Singleton.m327819733#327819733#0(0"0(0#0#56"/Users/andrew/Documents/AlarmAnimals/Classes/Singleton.m8616764352#1924"    cd /Users/andrew/Documents/AlarmAnimals    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-generated-files.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-own-target-headers.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-all-target-headers.hmap -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-project-headers.hmap -F/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos -I/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/include -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources/armv7 -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D+/D+RF4NkiEL8D6TmCllgolU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AlarmAnimals_Prefix-cwggcqyubqzojvbrpwybppmfdann/AlarmAnimals_Prefix.pch -c /Users/andrew/Documents/AlarmAnimals/Classes/Singleton.m -o /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/Singleton.o0#
+
+CCompileC build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/main.o /Users/andrew/Documents/AlarmAnimals/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327819732.249723
+e327819732.311232
+r1
+xCompileC
+xbuild/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/main.o
+x/Users/andrew/Documents/AlarmAnimals/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/andrew/Documents/AlarmAnimals/main.m327819732#327819732#0(0"0(0#0#43"/Users/andrew/Documents/AlarmAnimals/main.m8624174016#1906"    cd /Users/andrew/Documents/AlarmAnimals    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-generated-files.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-own-target-headers.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-all-target-headers.hmap -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-project-headers.hmap -F/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos -I/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/include -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources/armv7 -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D+/D+RF4NkiEL8D6TmCllgolU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AlarmAnimals_Prefix-cwggcqyubqzojvbrpwybppmfdann/AlarmAnimals_Prefix.pch -c /Users/andrew/Documents/AlarmAnimals/main.m -o /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/andrew/Documents/AlarmAnimals/AboutView.xib
+s327819724.535854
+e327819725.075212
+r1
+xCompileXIB
+x/Users/andrew/Documents/AlarmAnimals/AboutView.xib
+lSLF07#2@24"CompileXIB AboutView.xib327819724#327819725#0(0"0(0#0#50"/Users/andrew/Documents/AlarmAnimals/AboutView.xib8615829984#546"    cd /Users/andrew/Documents/AlarmAnimals    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/AboutView.nib /Users/andrew/Documents/AlarmAnimals/AboutView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
+
+CCompileXIB /Users/andrew/Documents/AlarmAnimals/AlarmAnimalsView.xib
+s327819725.075299
+e327819725.564052
+r1
+xCompileXIB
+x/Users/andrew/Documents/AlarmAnimals/AlarmAnimalsView.xib
+lSLF07#2@31"CompileXIB AlarmAnimalsView.xib327819725#327819725#0(0"0(0#0#57"/Users/andrew/Documents/AlarmAnimals/AlarmAnimalsView.xib8622013088#560"    cd /Users/andrew/Documents/AlarmAnimals    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/AlarmAnimalsView.nib /Users/andrew/Documents/AlarmAnimals/AlarmAnimalsView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
+
+CCompileXIB /Users/andrew/Documents/AlarmAnimals/ChooseAudioView.xib
+s327819726.058685
+e327819726.730529
+r1
+xCompileXIB
+x/Users/andrew/Documents/AlarmAnimals/ChooseAudioView.xib
+lSLF07#2@30"CompileXIB ChooseAudioView.xib327819726#327819726#0(0"0(0#0#56"/Users/andrew/Documents/AlarmAnimals/ChooseAudioView.xib8614980448#558"    cd /Users/andrew/Documents/AlarmAnimals    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/ChooseAudioView.nib /Users/andrew/Documents/AlarmAnimals/ChooseAudioView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
+
+CCompileXIB /Users/andrew/Documents/AlarmAnimals/ChooseTimeView.xib
+s327819725.564166
+e327819726.035011
+r1
+xCompileXIB
+x/Users/andrew/Documents/AlarmAnimals/ChooseTimeView.xib
+lSLF07#2@29"CompileXIB ChooseTimeView.xib327819725#327819726#0(0"0(0#0#55"/Users/andrew/Documents/AlarmAnimals/ChooseTimeView.xib8624228800#556"    cd /Users/andrew/Documents/AlarmAnimals    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/ChooseTimeView.nib /Users/andrew/Documents/AlarmAnimals/ChooseTimeView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
+
+CCompileXIB /Users/andrew/Documents/AlarmAnimals/FinalScreenView.xib
+s327819725.906846
+e327819726.547922
+r1
+xCompileXIB
+x/Users/andrew/Documents/AlarmAnimals/FinalScreenView.xib
+lSLF07#2@30"CompileXIB FinalScreenView.xib327819725#327819726#0(0"0(0#0#56"/Users/andrew/Documents/AlarmAnimals/FinalScreenView.xib8624013856#558"    cd /Users/andrew/Documents/AlarmAnimals    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/FinalScreenView.nib /Users/andrew/Documents/AlarmAnimals/FinalScreenView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
+
+CCompileXIB /Users/andrew/Documents/AlarmAnimals/MainWindow.xib
+s327819724.446417
+e327819724.999948
+r1
+xCompileXIB
+x/Users/andrew/Documents/AlarmAnimals/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib327819724#327819724#0(0"0(0#0#51"/Users/andrew/Documents/AlarmAnimals/MainWindow.xib8617761728#548"    cd /Users/andrew/Documents/AlarmAnimals    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/MainWindow.nib /Users/andrew/Documents/AlarmAnimals/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
+
+CCopyPNGFile "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/Default.png" Images/Default.png
+s327818755.629994
+e327818759.603618
+r1
+xCopyPNGFile
+x/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/Default.png
+xImages/Default.png
+lSLF07#2@90"CopyPNGFile "build/Distribution-iphoneos/Alarm Animals.app/Default.png" Images/Default.png327818755#327818759#0(0"0(0#0#55"/Users/andrew/Documents/AlarmAnimals/Images/Default.png8617528512#578"    cd /Users/andrew/Documents/AlarmAnimals    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/andrew/Documents/AlarmAnimals/Images/Default.png "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/Default.png"0#
+
+CCopyPNGFile "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/about.png" Images/about.png
+s327818754.234019
+e327818754.385019
+r1
+xCopyPNGFile
+x/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/about.png
+xImages/about.png
+lSLF07#2@86"CopyPNGFile "build/Distribution-iphoneos/Alarm Animals.app/about.png" Images/about.png327818754#327818754#0(0"0(0#0#53"/Users/andrew/Documents/AlarmAnimals/Images/about.png8624202912#574"    cd /Users/andrew/Documents/AlarmAnimals    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/andrew/Documents/AlarmAnimals/Images/about.png "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/about.png"0#
+
+CCopyPNGFile "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/animal alarm320.png" "Images/animal alarm320.png"
+s327818754.385120
+e327818755.060456
+r1
+xCopyPNGFile
+x/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/animal alarm320.png
+xImages/animal alarm320.png
+lSLF07#2@108"CopyPNGFile "build/Distribution-iphoneos/Alarm Animals.app/animal alarm320.png" "Images/animal alarm320.png"327818754#327818755#0(0"0(0#0#63"/Users/andrew/Documents/AlarmAnimals/Images/animal alarm320.png8622866560#596"    cd /Users/andrew/Documents/AlarmAnimals    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/andrew/Documents/AlarmAnimals/Images/animal alarm320.png" "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/animal alarm320.png"0#
+
+CCopyPNGFile "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/icon.png" Images/icon.png
+s327818755.589104
+e327818755.629895
+r1
+xCopyPNGFile
+x/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/icon.png
+xImages/icon.png
+lSLF07#2@84"CopyPNGFile "build/Distribution-iphoneos/Alarm Animals.app/icon.png" Images/icon.png327818755#327818755#0(0"0(0#0#52"/Users/andrew/Documents/AlarmAnimals/Images/icon.png8624726656#572"    cd /Users/andrew/Documents/AlarmAnimals    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/andrew/Documents/AlarmAnimals/Images/icon.png "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/icon.png"0#
+
+CCopyPNGFile "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/question.png" Images/question.png
+s327818753.690657
+e327818753.728964
+r1
+xCopyPNGFile
+x/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/question.png
+xImages/question.png
+lSLF07#2@92"CopyPNGFile "build/Distribution-iphoneos/Alarm Animals.app/question.png" Images/question.png327818753#327818753#0(0"0(0#0#56"/Users/andrew/Documents/AlarmAnimals/Images/question.png8623988480#580"    cd /Users/andrew/Documents/AlarmAnimals    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/andrew/Documents/AlarmAnimals/Images/question.png "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/question.png"0#
+
+CCopyPNGFile "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/smiling.png" Images/smiling.png
+s327818753.729065
+e327818753.757219
+r1
+xCopyPNGFile
+x/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/smiling.png
+xImages/smiling.png
+lSLF07#2@90"CopyPNGFile "build/Distribution-iphoneos/Alarm Animals.app/smiling.png" Images/smiling.png327818753#327818753#0(0"0(0#0#55"/Users/andrew/Documents/AlarmAnimals/Images/smiling.png8623649408#578"    cd /Users/andrew/Documents/AlarmAnimals    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/andrew/Documents/AlarmAnimals/Images/smiling.png "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/smiling.png"0#
+
+CCopyPNGFile "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/url.png" Images/url.png
+s327818755.971995
+e327818756.003228
+r1
+xCopyPNGFile
+x/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/url.png
+xImages/url.png
+lSLF07#2@82"CopyPNGFile "build/Distribution-iphoneos/Alarm Animals.app/url.png" Images/url.png327818755#327818756#0(0"0(0#0#51"/Users/andrew/Documents/AlarmAnimals/Images/url.png8602762240#570"    cd /Users/andrew/Documents/AlarmAnimals    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/andrew/Documents/AlarmAnimals/Images/url.png "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/url.png"0#
+
+CCopyPNGFile "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/animal alarm320.png" "Images/animal alarm320.png"
+s327819725.180480
+e327819725.906752
+r1
+xCopyPNGFile
+x/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/animal alarm320.png
+xImages/animal alarm320.png
+lSLF07#2@107"CopyPNGFile "build/Distribution-iphoneos/AlarmAnimals.app/animal alarm320.png" "Images/animal alarm320.png"327819725#327819725#0(0"0(0#0#63"/Users/andrew/Documents/AlarmAnimals/Images/animal alarm320.png8625046080#595"    cd /Users/andrew/Documents/AlarmAnimals    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/andrew/Documents/AlarmAnimals/Images/animal alarm320.png" "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/animal alarm320.png"0#
+
+CCopyPNGFile /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/Default.png Images/Default.png
+s327819726.582318
+e327819730.572186
+r1
+xCopyPNGFile
+x/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/Default.png
+xImages/Default.png
+lSLF07#2@87"CopyPNGFile build/Distribution-iphoneos/AlarmAnimals.app/Default.png Images/Default.png327819726#327819730#0(0"0(0#0#55"/Users/andrew/Documents/AlarmAnimals/Images/Default.png8624014176#575"    cd /Users/andrew/Documents/AlarmAnimals    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/andrew/Documents/AlarmAnimals/Images/Default.png /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/Default.png0#
+
+CCopyPNGFile /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/about.png Images/about.png
+s327819725.000050
+e327819725.180369
+r1
+xCopyPNGFile
+x/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/about.png
+xImages/about.png
+lSLF07#2@83"CopyPNGFile build/Distribution-iphoneos/AlarmAnimals.app/about.png Images/about.png327819725#327819725#0(0"0(0#0#53"/Users/andrew/Documents/AlarmAnimals/Images/about.png8623711328#571"    cd /Users/andrew/Documents/AlarmAnimals    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/andrew/Documents/AlarmAnimals/Images/about.png /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/about.png0#
+
+CCopyPNGFile /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/icon.png Images/icon.png
+s327819726.548020
+e327819726.582194
+r1
+xCopyPNGFile
+x/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/icon.png
+xImages/icon.png
+lSLF07#2@81"CopyPNGFile build/Distribution-iphoneos/AlarmAnimals.app/icon.png Images/icon.png327819726#327819726#0(0"0(0#0#52"/Users/andrew/Documents/AlarmAnimals/Images/icon.png8606560672#569"    cd /Users/andrew/Documents/AlarmAnimals    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/andrew/Documents/AlarmAnimals/Images/icon.png /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/icon.png0#
+
+CCopyPNGFile /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/question.png Images/question.png
+s327819724.448488
+e327819724.491261
+r1
+xCopyPNGFile
+x/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/question.png
+xImages/question.png
+lSLF07#2@89"CopyPNGFile build/Distribution-iphoneos/AlarmAnimals.app/question.png Images/question.png327819724#327819724#0(0"0(0#0#56"/Users/andrew/Documents/AlarmAnimals/Images/question.png8616528992#577"    cd /Users/andrew/Documents/AlarmAnimals    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/andrew/Documents/AlarmAnimals/Images/question.png /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/question.png0#
+
+CCopyPNGFile /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/smiling.png Images/smiling.png
+s327819724.491375
+e327819724.535762
+r1
+xCopyPNGFile
+x/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/smiling.png
+xImages/smiling.png
+lSLF07#2@87"CopyPNGFile build/Distribution-iphoneos/AlarmAnimals.app/smiling.png Images/smiling.png327819724#327819724#0(0"0(0#0#55"/Users/andrew/Documents/AlarmAnimals/Images/smiling.png8616336416#575"    cd /Users/andrew/Documents/AlarmAnimals    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/andrew/Documents/AlarmAnimals/Images/smiling.png /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/smiling.png0#
+
+CCopyPNGFile /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/url.png Images/url.png
+s327819726.730626
+e327819726.763704
+r1
+xCopyPNGFile
+x/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/url.png
+xImages/url.png
+lSLF07#2@79"CopyPNGFile build/Distribution-iphoneos/AlarmAnimals.app/url.png Images/url.png327819726#327819726#0(0"0(0#0#51"/Users/andrew/Documents/AlarmAnimals/Images/url.png8614678112#567"    cd /Users/andrew/Documents/AlarmAnimals    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/andrew/Documents/AlarmAnimals/Images/url.png /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/url.png0#
+
+CCpResource "build/Distribution-iphoneos/Alarm Animals.app/Bear.mp3" Audio/Bear.mp3
+s327818756.003326
+e327818756.008591
+r1
+xCpResource
+xbuild/Distribution-iphoneos/Alarm Animals.app/Bear.mp3
+xAudio/Bear.mp3
+lSLF07#2@19"Copy Audio/Bear.mp3327818756#327818756#0(0"0(0#0#51"/Users/andrew/Documents/AlarmAnimals/Audio/Bear.mp38625431232#474"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/andrew/Documents/AlarmAnimals/Audio/Bear.mp3 "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app"0#
+
+CCpResource "build/Distribution-iphoneos/Alarm Animals.app/CatsMeow.mp3" Audio/CatsMeow.mp3
+s327818755.210502
+e327818755.231180
+r1
+xCpResource
+xbuild/Distribution-iphoneos/Alarm Animals.app/CatsMeow.mp3
+xAudio/CatsMeow.mp3
+lSLF07#2@23"Copy Audio/CatsMeow.mp3327818755#327818755#0(0"0(0#0#55"/Users/andrew/Documents/AlarmAnimals/Audio/CatsMeow.mp38617186944#478"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/andrew/Documents/AlarmAnimals/Audio/CatsMeow.mp3 "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app"0#
+
+CCpResource "build/Distribution-iphoneos/Alarm Animals.app/CowsMoo.mp3" Audio/CowsMoo.mp3
+s327818755.211381
+e327818755.266987
+r1
+xCpResource
+xbuild/Distribution-iphoneos/Alarm Animals.app/CowsMoo.mp3
+xAudio/CowsMoo.mp3
+lSLF07#2@22"Copy Audio/CowsMoo.mp3327818755#327818755#0(0"0(0#0#54"/Users/andrew/Documents/AlarmAnimals/Audio/CowsMoo.mp38617105376#477"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/andrew/Documents/AlarmAnimals/Audio/CowsMoo.mp3 "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app"0#
+
+CCpResource "build/Distribution-iphoneos/Alarm Animals.app/Coyote.mp3" Audio/Coyote.mp3
+s327818755.213147
+e327818755.231313
+r1
+xCpResource
+xbuild/Distribution-iphoneos/Alarm Animals.app/Coyote.mp3
+xAudio/Coyote.mp3
+lSLF07#2@21"Copy Audio/Coyote.mp3327818755#327818755#0(0"0(0#0#53"/Users/andrew/Documents/AlarmAnimals/Audio/Coyote.mp38616896096#476"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/andrew/Documents/AlarmAnimals/Audio/Coyote.mp3 "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app"0#
+
+CCpResource "build/Distribution-iphoneos/Alarm Animals.app/Donkey.mp3" Audio/Donkey.mp3
+s327818755.214995
+e327818755.235511
+r1
+xCpResource
+xbuild/Distribution-iphoneos/Alarm Animals.app/Donkey.mp3
+xAudio/Donkey.mp3
+lSLF07#2@21"Copy Audio/Donkey.mp3327818755#327818755#0(0"0(0#0#53"/Users/andrew/Documents/AlarmAnimals/Audio/Donkey.mp38616714080#476"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/andrew/Documents/AlarmAnimals/Audio/Donkey.mp3 "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app"0#
+
+CCpResource "build/Distribution-iphoneos/Alarm Animals.app/Ducks.mp3" Audio/Ducks.mp3
+s327818755.216819
+e327818755.241863
+r1
+xCpResource
+xbuild/Distribution-iphoneos/Alarm Animals.app/Ducks.mp3
+xAudio/Ducks.mp3
+lSLF07#2@20"Copy Audio/Ducks.mp3327818755#327818755#0(0"0(0#0#52"/Users/andrew/Documents/AlarmAnimals/Audio/Ducks.mp38616501632#475"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/andrew/Documents/AlarmAnimals/Audio/Ducks.mp3 "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app"0#
+
+CCpResource "build/Distribution-iphoneos/Alarm Animals.app/Elephants.mp3" Audio/Elephants.mp3
+s327818755.218669
+e327818755.280736
+r1
+xCpResource
+xbuild/Distribution-iphoneos/Alarm Animals.app/Elephants.mp3
+xAudio/Elephants.mp3
+lSLF07#2@24"Copy Audio/Elephants.mp3327818755#327818755#0(0"0(0#0#56"/Users/andrew/Documents/AlarmAnimals/Audio/Elephants.mp38616230976#479"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/andrew/Documents/AlarmAnimals/Audio/Elephants.mp3 "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app"0#
+
+CCpResource "build/Distribution-iphoneos/Alarm Animals.app/Goats.mp3" Audio/Goats.mp3
+s327818755.224543
+e327818755.251119
+r1
+xCpResource
+xbuild/Distribution-iphoneos/Alarm Animals.app/Goats.mp3
+xAudio/Goats.mp3
+lSLF07#2@20"Copy Audio/Goats.mp3327818755#327818755#0(0"0(0#0#52"/Users/andrew/Documents/AlarmAnimals/Audio/Goats.mp38616040384#475"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/andrew/Documents/AlarmAnimals/Audio/Goats.mp3 "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app"0#
+
+CCpResource "build/Distribution-iphoneos/Alarm Animals.app/Horse.mp3" Audio/Horse.mp3
+s327818755.226383
+e327818755.257775
+r1
+xCpResource
+xbuild/Distribution-iphoneos/Alarm Animals.app/Horse.mp3
+xAudio/Horse.mp3
+lSLF07#2@20"Copy Audio/Horse.mp3327818755#327818755#0(0"0(0#0#52"/Users/andrew/Documents/AlarmAnimals/Audio/Horse.mp38615784032#475"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/andrew/Documents/AlarmAnimals/Audio/Horse.mp3 "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app"0#
+
+CCpResource "build/Distribution-iphoneos/Alarm Animals.app/Lions.mp3" Audio/Lions.mp3
+s327818755.228314
+e327818755.255198
+r1
+xCpResource
+xbuild/Distribution-iphoneos/Alarm Animals.app/Lions.mp3
+xAudio/Lions.mp3
+lSLF07#2@20"Copy Audio/Lions.mp3327818755#327818755#0(0"0(0#0#52"/Users/andrew/Documents/AlarmAnimals/Audio/Lions.mp38615436288#475"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/andrew/Documents/AlarmAnimals/Audio/Lions.mp3 "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app"0#
+
+CCpResource "build/Distribution-iphoneos/Alarm Animals.app/Morning Songbirds.mp3" "Audio/Morning Songbirds.mp3"
+s327818755.231396
+e327818755.259685
+r1
+xCpResource
+xbuild/Distribution-iphoneos/Alarm Animals.app/Morning Songbirds.mp3
+xAudio/Morning Songbirds.mp3
+lSLF07#2@32"Copy Audio/Morning Songbirds.mp3327818755#327818755#0(0"0(0#0#64"/Users/andrew/Documents/AlarmAnimals/Audio/Morning Songbirds.mp38614898528#489"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/andrew/Documents/AlarmAnimals/Audio/Morning Songbirds.mp3" "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app"0#
+
+CCpResource "build/Distribution-iphoneos/Alarm Animals.app/Owls.mp3" Audio/Owls.mp3
+s327818755.233263
+e327818755.262833
+r1
+xCpResource
+xbuild/Distribution-iphoneos/Alarm Animals.app/Owls.mp3
+xAudio/Owls.mp3
+lSLF07#2@19"Copy Audio/Owls.mp3327818755#327818755#0(0"0(0#0#51"/Users/andrew/Documents/AlarmAnimals/Audio/Owls.mp38598377792#474"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/andrew/Documents/AlarmAnimals/Audio/Owls.mp3 "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app"0#
+
+CCpResource "build/Distribution-iphoneos/Alarm Animals.app/ResourceRules.plist" /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+s327818753.665510
+e327818753.689599
+r1
+xCpResource
+xbuild/Distribution-iphoneos/Alarm Animals.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist327818753#327818753#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist8616248128#512"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app"0#
+
+CCpResource "build/Distribution-iphoneos/Alarm Animals.app/Rooster.mp3" Audio/Rooster.mp3
+s327818755.235604
+e327818755.265832
+r1
+xCpResource
+xbuild/Distribution-iphoneos/Alarm Animals.app/Rooster.mp3
+xAudio/Rooster.mp3
+lSLF07#2@22"Copy Audio/Rooster.mp3327818755#327818755#0(0"0(0#0#54"/Users/andrew/Documents/AlarmAnimals/Audio/Rooster.mp38617587296#477"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/andrew/Documents/AlarmAnimals/Audio/Rooster.mp3 "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app"0#
+
+CCpResource "build/Distribution-iphoneos/Alarm Animals.app/Sheep.mp3" Audio/Sheep.mp3
+s327818755.241961
+e327818755.265343
+r1
+xCpResource
+xbuild/Distribution-iphoneos/Alarm Animals.app/Sheep.mp3
+xAudio/Sheep.mp3
+lSLF07#2@20"Copy Audio/Sheep.mp3327818755#327818755#0(0"0(0#0#52"/Users/andrew/Documents/AlarmAnimals/Audio/Sheep.mp38617451936#475"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/andrew/Documents/AlarmAnimals/Audio/Sheep.mp3 "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app"0#
+
+CCpResource "build/Distribution-iphoneos/Alarm Animals.app/Songbirds.mp3" Audio/Songbirds.mp3
+s327818755.251226
+e327818755.278680
+r1
+xCpResource
+xbuild/Distribution-iphoneos/Alarm Animals.app/Songbirds.mp3
+xAudio/Songbirds.mp3
+lSLF07#2@24"Copy Audio/Songbirds.mp3327818755#327818755#0(0"0(0#0#56"/Users/andrew/Documents/AlarmAnimals/Audio/Songbirds.mp38616911808#479"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/andrew/Documents/AlarmAnimals/Audio/Songbirds.mp3 "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app"0#
+
+CCpResource "build/Distribution-iphoneos/AlarmAnimals.app/Morning Songbirds.mp3" "Audio/Morning Songbirds.mp3"
+s327819726.048821
+e327819726.066216
+r1
+xCpResource
+xbuild/Distribution-iphoneos/AlarmAnimals.app/Morning Songbirds.mp3
+xAudio/Morning Songbirds.mp3
+lSLF07#2@32"Copy Audio/Morning Songbirds.mp3327819726#327819726#0(0"0(0#0#64"/Users/andrew/Documents/AlarmAnimals/Audio/Morning Songbirds.mp38606323296#486"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/andrew/Documents/AlarmAnimals/Audio/Morning Songbirds.mp3" /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app0#
+
+CCpResource build/Distribution-iphoneos/AlarmAnimals.app/Bear.mp3 Audio/Bear.mp3
+s327819726.763806
+e327819726.769897
+r1
+xCpResource
+xbuild/Distribution-iphoneos/AlarmAnimals.app/Bear.mp3
+xAudio/Bear.mp3
+lSLF07#2@19"Copy Audio/Bear.mp3327819726#327819726#0(0"0(0#0#51"/Users/andrew/Documents/AlarmAnimals/Audio/Bear.mp38626077088#471"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/andrew/Documents/AlarmAnimals/Audio/Bear.mp3 /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app0#
+
+CCpResource build/Distribution-iphoneos/AlarmAnimals.app/CatsMeow.mp3 Audio/CatsMeow.mp3
+s327819726.035204
+e327819726.050996
+r1
+xCpResource
+xbuild/Distribution-iphoneos/AlarmAnimals.app/CatsMeow.mp3
+xAudio/CatsMeow.mp3
+lSLF07#2@23"Copy Audio/CatsMeow.mp3327819726#327819726#0(0"0(0#0#55"/Users/andrew/Documents/AlarmAnimals/Audio/CatsMeow.mp38622141120#475"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/andrew/Documents/AlarmAnimals/Audio/CatsMeow.mp3 /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app0#
+
+CCpResource build/Distribution-iphoneos/AlarmAnimals.app/CowsMoo.mp3 Audio/CowsMoo.mp3
+s327819726.035936
+e327819726.051128
+r1
+xCpResource
+xbuild/Distribution-iphoneos/AlarmAnimals.app/CowsMoo.mp3
+xAudio/CowsMoo.mp3
+lSLF07#2@22"Copy Audio/CowsMoo.mp3327819726#327819726#0(0"0(0#0#54"/Users/andrew/Documents/AlarmAnimals/Audio/CowsMoo.mp38616243552#474"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/andrew/Documents/AlarmAnimals/Audio/CowsMoo.mp3 /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app0#
+
+CCpResource build/Distribution-iphoneos/AlarmAnimals.app/Coyote.mp3 Audio/Coyote.mp3
+s327819726.764537
+e327819726.772361
+r1
+xCpResource
+xbuild/Distribution-iphoneos/AlarmAnimals.app/Coyote.mp3
+xAudio/Coyote.mp3
+lSLF07#2@21"Copy Audio/Coyote.mp3327819726#327819726#0(0"0(0#0#53"/Users/andrew/Documents/AlarmAnimals/Audio/Coyote.mp38625174400#473"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/andrew/Documents/AlarmAnimals/Audio/Coyote.mp3 /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app0#
+
+CCpResource build/Distribution-iphoneos/AlarmAnimals.app/Donkey.mp3 Audio/Donkey.mp3
+s327819726.036562
+e327819726.051242
+r1
+xCpResource
+xbuild/Distribution-iphoneos/AlarmAnimals.app/Donkey.mp3
+xAudio/Donkey.mp3
+lSLF07#2@21"Copy Audio/Donkey.mp3327819726#327819726#0(0"0(0#0#53"/Users/andrew/Documents/AlarmAnimals/Audio/Donkey.mp38624691232#473"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/andrew/Documents/AlarmAnimals/Audio/Donkey.mp3 /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app0#
+
+CCpResource build/Distribution-iphoneos/AlarmAnimals.app/Ducks.mp3 Audio/Ducks.mp3
+s327819726.037181
+e327819726.060952
+r1
+xCpResource
+xbuild/Distribution-iphoneos/AlarmAnimals.app/Ducks.mp3
+xAudio/Ducks.mp3
+lSLF07#2@20"Copy Audio/Ducks.mp3327819726#327819726#0(0"0(0#0#52"/Users/andrew/Documents/AlarmAnimals/Audio/Ducks.mp38621897376#472"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/andrew/Documents/AlarmAnimals/Audio/Ducks.mp3 /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app0#
+
+CCpResource build/Distribution-iphoneos/AlarmAnimals.app/Elephants.mp3 Audio/Elephants.mp3
+s327819726.039691
+e327819726.061084
+r1
+xCpResource
+xbuild/Distribution-iphoneos/AlarmAnimals.app/Elephants.mp3
+xAudio/Elephants.mp3
+lSLF07#2@24"Copy Audio/Elephants.mp3327819726#327819726#0(0"0(0#0#56"/Users/andrew/Documents/AlarmAnimals/Audio/Elephants.mp38618016128#476"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/andrew/Documents/AlarmAnimals/Audio/Elephants.mp3 /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app0#
+
+CCpResource build/Distribution-iphoneos/AlarmAnimals.app/Goats.mp3 Audio/Goats.mp3
+s327819726.041510
+e327819726.061201
+r1
+xCpResource
+xbuild/Distribution-iphoneos/AlarmAnimals.app/Goats.mp3
+xAudio/Goats.mp3
+lSLF07#2@20"Copy Audio/Goats.mp3327819726#327819726#0(0"0(0#0#52"/Users/andrew/Documents/AlarmAnimals/Audio/Goats.mp38616711200#472"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/andrew/Documents/AlarmAnimals/Audio/Goats.mp3 /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app0#
+
+CCpResource build/Distribution-iphoneos/AlarmAnimals.app/Horse.mp3 Audio/Horse.mp3
+s327819726.044233
+e327819726.061313
+r1
+xCpResource
+xbuild/Distribution-iphoneos/AlarmAnimals.app/Horse.mp3
+xAudio/Horse.mp3
+lSLF07#2@20"Copy Audio/Horse.mp3327819726#327819726#0(0"0(0#0#52"/Users/andrew/Documents/AlarmAnimals/Audio/Horse.mp38616342016#472"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/andrew/Documents/AlarmAnimals/Audio/Horse.mp3 /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app0#
+
+CCpResource build/Distribution-iphoneos/AlarmAnimals.app/Lions.mp3 Audio/Lions.mp3
+s327819726.046454
+e327819726.067537
+r1
+xCpResource
+xbuild/Distribution-iphoneos/AlarmAnimals.app/Lions.mp3
+xAudio/Lions.mp3
+lSLF07#2@20"Copy Audio/Lions.mp3327819726#327819726#0(0"0(0#0#52"/Users/andrew/Documents/AlarmAnimals/Audio/Lions.mp38615895904#472"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/andrew/Documents/AlarmAnimals/Audio/Lions.mp3 /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app0#
+
+CCpResource build/Distribution-iphoneos/AlarmAnimals.app/Owls.mp3 Audio/Owls.mp3
+s327819726.051317
+e327819726.074005
+r1
+xCpResource
+xbuild/Distribution-iphoneos/AlarmAnimals.app/Owls.mp3
+xAudio/Owls.mp3
+lSLF07#2@19"Copy Audio/Owls.mp3327819726#327819726#0(0"0(0#0#51"/Users/andrew/Documents/AlarmAnimals/Audio/Owls.mp38601976672#471"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/andrew/Documents/AlarmAnimals/Audio/Owls.mp3 /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app0#
+
+CCpResource build/Distribution-iphoneos/AlarmAnimals.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+s327819724.426022
+e327819724.446312
+r1
+xCpResource
+xbuild/Distribution-iphoneos/AlarmAnimals.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist327819724#327819724#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist8622261824#509"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app0#
+
+CCpResource build/Distribution-iphoneos/AlarmAnimals.app/Rooster.mp3 Audio/Rooster.mp3
+s327819726.765792
+e327819726.777227
+r1
+xCpResource
+xbuild/Distribution-iphoneos/AlarmAnimals.app/Rooster.mp3
+xAudio/Rooster.mp3
+lSLF07#2@22"Copy Audio/Rooster.mp3327819726#327819726#0(0"0(0#0#54"/Users/andrew/Documents/AlarmAnimals/Audio/Rooster.mp38623713408#474"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/andrew/Documents/AlarmAnimals/Audio/Rooster.mp3 /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app0#
+
+CCpResource build/Distribution-iphoneos/AlarmAnimals.app/Sheep.mp3 Audio/Sheep.mp3
+s327819726.765169
+e327819726.774914
+r1
+xCpResource
+xbuild/Distribution-iphoneos/AlarmAnimals.app/Sheep.mp3
+xAudio/Sheep.mp3
+lSLF07#2@20"Copy Audio/Sheep.mp3327819726#327819726#0(0"0(0#0#52"/Users/andrew/Documents/AlarmAnimals/Audio/Sheep.mp38624828512#472"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/andrew/Documents/AlarmAnimals/Audio/Sheep.mp3 /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app0#
+
+CCpResource build/Distribution-iphoneos/AlarmAnimals.app/Songbirds.mp3 Audio/Songbirds.mp3
+s327819726.054445
+e327819726.067041
+r1
+xCpResource
+xbuild/Distribution-iphoneos/AlarmAnimals.app/Songbirds.mp3
+xAudio/Songbirds.mp3
+lSLF07#2@24"Copy Audio/Songbirds.mp3327819726#327819726#0(0"0(0#0#56"/Users/andrew/Documents/AlarmAnimals/Audio/Songbirds.mp38615553376#476"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/andrew/Documents/AlarmAnimals/Audio/Songbirds.mp3 /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app0#
+
+CCreateUniversalBinary "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/Alarm Animals" normal "armv6 armv7"
+s327818763.391069
+e327818763.394504
+r1
+xCreateUniversalBinary
+x/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/Alarm Animals
+xnormal
+xarmv6 armv7
+lSLF07#2@104"CreateUniversalBinary "build/Distribution-iphoneos/Alarm Animals.app/Alarm Animals" normal "armv6 armv7"327818763#327818763#0(0"0(0#0#48"/Users/andrew/Documents/AlarmAnimals/armv6 armv78617319904#581"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create "/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/Alarm Animals" "/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/Alarm Animals" -output "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/Alarm Animals"0#
+
+CCreateUniversalBinary /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/AlarmAnimals normal "armv6 armv7"
+s327819734.493425
+e327819734.496857
+r1
+xCreateUniversalBinary
+x/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/AlarmAnimals
+xnormal
+xarmv6 armv7
+lSLF07#2@100"CreateUniversalBinary build/Distribution-iphoneos/AlarmAnimals.app/AlarmAnimals normal "armv6 armv7"327819734#327819734#0(0"0(0#0#48"/Users/andrew/Documents/AlarmAnimals/armv6 armv78622187424#571"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/AlarmAnimals /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/AlarmAnimals -output /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/AlarmAnimals0#
+
+CGenerateDSYMFile "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app.dSYM" "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/Alarm Animals"
+s327818763.394600
+e327818763.448781
+r1
+xGenerateDSYMFile
+x/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app.dSYM
+x/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/Alarm Animals
+lSLF07#2@131"GenerateDSYMFile "build/Distribution-iphoneos/Alarm Animals.app.dSYM" "build/Distribution-iphoneos/Alarm Animals.app/Alarm Animals"327818763#327818763#0(0"0(0#0#96"/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/Alarm Animals8616054400#392"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/Alarm Animals" -o "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app.dSYM"0#
+
+CGenerateDSYMFile /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app.dSYM /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/AlarmAnimals
+s327819734.496961
+e327819734.554811
+r1
+xGenerateDSYMFile
+x/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app.dSYM
+x/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/AlarmAnimals
+lSLF07#2@124"GenerateDSYMFile build/Distribution-iphoneos/AlarmAnimals.app.dSYM build/Distribution-iphoneos/AlarmAnimals.app/AlarmAnimals327819734#327819734#0(0"0(0#0#94"/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/AlarmAnimals8621501280#385"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/AlarmAnimals -o /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app.dSYM0#
+
+CLd "/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/Alarm Animals" normal armv6
+s327818762.358479
+e327818762.403287
+r1
+xLd
+x/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/Alarm Animals
+xnormal
+xarmv6
+lSLF07#2@142"Link /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/Alarm Animals327818762#327818762#0(0"0(0#0#0"8624678944#937"    cd /Users/andrew/Documents/AlarmAnimals    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -L/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos -F/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos -filelist "/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/Alarm Animals.LinkFileList" -dead_strip -miphoneos-version-min=3.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework AVFoundation -o "/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/Alarm Animals"0#
+
+CLd "/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/Alarm Animals" normal armv7
+s327818763.350586
+e327818763.390953
+r1
+xLd
+x/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/Alarm Animals
+xnormal
+xarmv7
+lSLF07#2@142"Link /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/Alarm Animals327818763#327818763#0(0"0(0#0#0"8623843872#937"    cd /Users/andrew/Documents/AlarmAnimals    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -L/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos -F/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos -filelist "/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/Alarm Animals.LinkFileList" -dead_strip -miphoneos-version-min=3.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework AVFoundation -o "/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/Alarm Animals"0#
+
+CLd /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/AlarmAnimals normal armv6
+s327819733.460768
+e327819733.501877
+r1
+xLd
+x/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/AlarmAnimals
+xnormal
+xarmv6
+lSLF07#2@141"Link /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/AlarmAnimals327819733#327819733#0(0"0(0#0#0"8624814144#931"    cd /Users/andrew/Documents/AlarmAnimals    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -L/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos -F/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos -filelist /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/AlarmAnimals.LinkFileList -dead_strip -miphoneos-version-min=3.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework AVFoundation -o /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv6/AlarmAnimals0#
+
+CLd /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/AlarmAnimals normal armv7
+s327819734.453960
+e327819734.493319
+r1
+xLd
+x/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/AlarmAnimals
+xnormal
+xarmv7
+lSLF07#2@141"Link /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/AlarmAnimals327819734#327819734#0(0"0(0#0#0"8624494944#931"    cd /Users/andrew/Documents/AlarmAnimals    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -L/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos -F/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos -filelist /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/AlarmAnimals.LinkFileList -dead_strip -miphoneos-version-min=3.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework AVFoundation -o /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Objects-normal/armv7/AlarmAnimals0#
+
+CProcessInfoPlistFile "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/Info.plist" AlarmAnimals-Info.plist
+s327818753.668705
+e327818753.684898
+r1
+xProcessInfoPlistFile
+x/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/Info.plist
+xAlarmAnimals-Info.plist
+lSLF07#2@31"Process AlarmAnimals-Info.plist327818753#327818753#0(0"0(0#0#60"/Users/andrew/Documents/AlarmAnimals/AlarmAnimals-Info.plist8615589504#604"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility AlarmAnimals-Info.plist -genpkginfo "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/ResourceRules.plist" -o "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/Info.plist"0#
+
+CProcessInfoPlistFile /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/Info.plist AlarmAnimals-Info.plist
+s327819724.426949
+e327819724.441038
+r1
+xProcessInfoPlistFile
+x/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/Info.plist
+xAlarmAnimals-Info.plist
+lSLF07#2@31"Process AlarmAnimals-Info.plist327819724#327819724#0(0"0(0#0#60"/Users/andrew/Documents/AlarmAnimals/AlarmAnimals-Info.plist8622037536#595"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility AlarmAnimals-Info.plist -genpkginfo /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/ResourceRules.plist -o /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/Info.plist0#
+
+CProcessPCH /var/folders/D+/D+RF4NkiEL8D6TmCllgolU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AlarmAnimals_Prefix-cwggcqyubqzojvbrpwybppmfdann/AlarmAnimals_Prefix.pch.gch AlarmAnimals_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327819730.573280
+e327819731.463613
+r1
+xProcessPCH
+x/var/folders/D+/D+RF4NkiEL8D6TmCllgolU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AlarmAnimals_Prefix-cwggcqyubqzojvbrpwybppmfdann/AlarmAnimals_Prefix.pch.gch
+xAlarmAnimals_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile AlarmAnimals_Prefix.pch327819730#327819731#0(0"0(0#0#60"/Users/andrew/Documents/AlarmAnimals/AlarmAnimals_Prefix.pch8606476960#1794"    cd /Users/andrew/Documents/AlarmAnimals    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-generated-files.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-own-target-headers.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-all-target-headers.hmap -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-project-headers.hmap -F/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos -I/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/include -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources/armv7 -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/andrew/Documents/AlarmAnimals/AlarmAnimals_Prefix.pch -o /var/folders/D+/D+RF4NkiEL8D6TmCllgolU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AlarmAnimals_Prefix-cwggcqyubqzojvbrpwybppmfdann/AlarmAnimals_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/D+/D+RF4NkiEL8D6TmCllgolU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AlarmAnimals_Prefix-eesyeiihpcyxrmcfjkcsxeaycicf/AlarmAnimals_Prefix.pch.gch AlarmAnimals_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s327819730.572352
+e327819731.368841
+r1
+xProcessPCH
+x/var/folders/D+/D+RF4NkiEL8D6TmCllgolU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AlarmAnimals_Prefix-eesyeiihpcyxrmcfjkcsxeaycicf/AlarmAnimals_Prefix.pch.gch
+xAlarmAnimals_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile AlarmAnimals_Prefix.pch327819730#327819731#0(0"0(0#0#60"/Users/andrew/Documents/AlarmAnimals/AlarmAnimals_Prefix.pch8614947360#1794"    cd /Users/andrew/Documents/AlarmAnimals    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-generated-files.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-own-target-headers.hmap -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-all-target-headers.hmap -iquote /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals-project-headers.hmap -F/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos -I/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/include -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources/armv6 -I/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/andrew/Documents/AlarmAnimals/AlarmAnimals_Prefix.pch -o /var/folders/D+/D+RF4NkiEL8D6TmCllgolU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AlarmAnimals_Prefix-eesyeiihpcyxrmcfjkcsxeaycicf/AlarmAnimals_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/andrew/Library/MobileDevice/Provisioning Profiles/515F388A-6D98-4FAB-8841-4700ED00FC49.mobileprovision" "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/embedded.mobileprovision"
+s327818763.448886
+e327818763.450010
+r1
+xProcessProductPackaging
+x/Users/andrew/Library/MobileDevice/Provisioning Profiles/515F388A-6D98-4FAB-8841-4700ED00FC49.mobileprovision
+x/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/embedded.mobileprovision
+lSLF07#2@208"ProcessProductPackaging "/Users/andrew/Library/MobileDevice/Provisioning Profiles/515F388A-6D98-4FAB-8841-4700ED00FC49.mobileprovision" "build/Distribution-iphoneos/Alarm Animals.app/embedded.mobileprovision"327818763#327818763#0(0"0(0#0#107"/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/embedded.mobileprovision8614976480#435"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/andrew/Library/MobileDevice/Provisioning Profiles/515F388A-6D98-4FAB-8841-4700ED00FC49.mobileprovision" -o "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging "/Users/andrew/Library/MobileDevice/Provisioning Profiles/515F388A-6D98-4FAB-8841-4700ED00FC49.mobileprovision" /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/embedded.mobileprovision
+s327819734.554923
+e327819734.556087
+r1
+xProcessProductPackaging
+x/Users/andrew/Library/MobileDevice/Provisioning Profiles/515F388A-6D98-4FAB-8841-4700ED00FC49.mobileprovision
+x/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/embedded.mobileprovision
+lSLF07#2@205"ProcessProductPackaging "/Users/andrew/Library/MobileDevice/Provisioning Profiles/515F388A-6D98-4FAB-8841-4700ED00FC49.mobileprovision" build/Distribution-iphoneos/AlarmAnimals.app/embedded.mobileprovision327819734#327819734#0(0"0(0#0#106"/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/embedded.mobileprovision8614444768#432"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/andrew/Library/MobileDevice/Provisioning Profiles/515F388A-6D98-4FAB-8841-4700ED00FC49.mobileprovision" -o /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist "/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Alarm Animals.xcent"
+s327818763.454293
+e327818763.485053
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
+x/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Alarm Animals.xcent
+lSLF07#2@200"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist "build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Alarm Animals.xcent"327818763#327818763#0(0"0(0#0#122"/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Alarm Animals.xcent8606876672#453"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist -entitlements -format xml -o "/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/Alarm Animals.xcent"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals.xcent
+s327819734.560437
+e327819734.570966
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
+x/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals.xcent
+lSLF07#2@197"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals.xcent327819734#327819734#0(0"0(0#0#121"/Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals.xcent8604347296#450"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/andrew/Documents/AlarmAnimals/build/AlarmAnimals.build/Distribution-iphoneos/AlarmAnimals.build/AlarmAnimals.xcent0#
+
+CTouch "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app"
+s327818763.450073
+e327818763.454199
+r1
+xTouch
+x/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app
+lSLF07#2@88"Touch /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app327818763#327818763#0(0"0(0#0#0"8614411264#275"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app"0#
+
+CTouch /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app
+s327819734.556146
+e327819734.560338
+r1
+xTouch
+x/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app
+lSLF07#2@87"Touch /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app327819734#327819734#0(0"0(0#0#0"8604585984#272"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app0#
+
+CValidate "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app"
+s327818765.664847
+e327818765.841580
+r1
+xValidate
+x/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app
+lSLF07#2@56"Validate "build/Distribution-iphoneos/Alarm Animals.app"327818765#327818765#0(0"0(0#0#82"/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app8623692608#384"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation "/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/Alarm Animals.app"0#
+
+CValidate /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app
+s327819741.499077
+e327819741.677773
+r1
+xValidate
+x/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app
+lSLF07#2@53"Validate build/Distribution-iphoneos/AlarmAnimals.app327819741#327819741#0(0"0(0#0#81"/Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app8625524032#381"    cd /Users/andrew/Documents/AlarmAnimals    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/andrew/Documents/AlarmAnimals/build/Distribution-iphoneos/AlarmAnimals.app0#
+

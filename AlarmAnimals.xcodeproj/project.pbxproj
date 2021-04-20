@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* AlarmAnimalsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AlarmAnimalsAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		49C2A55B1384E677007BCD16 /* Bear.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 49C2A55A1384E677007BCD16 /* Bear.mp3 */; };
+		49D3F707138A2134005AD5F2 /* Coyote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 49D3F706138A2134005AD5F2 /* Coyote.mp3 */; };
+		49D3F709138A213C005AD5F2 /* Sheep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 49D3F708138A213C005AD5F2 /* Sheep.mp3 */; };
+		49D3F70B138A2144005AD5F2 /* Rooster.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 49D3F70A138A2144005AD5F2 /* Rooster.mp3 */; };
+		49E76C281376EC2D00E9306C /* question.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E76C271376EC2D00E9306C /* question.png */; };
+		49E76C2A1376EC3700E9306C /* smiling.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E76C291376EC3700E9306C /* smiling.png */; };
+		49E76C311376ED1300E9306C /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E76C301376ED1300E9306C /* AboutViewController.m */; };
+		49E76C331376ED2900E9306C /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49E76C321376ED2900E9306C /* AboutView.xib */; };
+		49E76C4B1376EE2F00E9306C /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E76C4A1376EE2F00E9306C /* about.png */; };
+		49E76C511376EEE900E9306C /* NavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E76C501376EEE900E9306C /* NavController.m */; };
+		49E76C551376F0A600E9306C /* AlarmAnimalsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E76C541376F0A600E9306C /* AlarmAnimalsViewController.m */; };
+		49E76C581376F0E500E9306C /* AlarmAnimalsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49E76C571376F0E500E9306C /* AlarmAnimalsView.xib */; };
+		49E76C631376F2C000E9306C /* animal alarm320.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E76C621376F2C000E9306C /* animal alarm320.png */; };
+		49E76C6A1376F41E00E9306C /* ChooseTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E76C691376F41E00E9306C /* ChooseTimeViewController.m */; };
+		49E76C6C1376F46300E9306C /* ChooseTimeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49E76C6B1376F46300E9306C /* ChooseTimeView.xib */; };
+		49E76C991376F7BA00E9306C /* ArchivingClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E76C981376F7BA00E9306C /* ArchivingClass.m */; };
+		49E76CA11376F87D00E9306C /* FinalScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E76CA01376F87D00E9306C /* FinalScreen.m */; };
+		49E76CA41376F89A00E9306C /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E76CA31376F89A00E9306C /* Singleton.m */; };
+		49E76CA61376F8D700E9306C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E76CA51376F8D700E9306C /* AVFoundation.framework */; };
+		49E76CAC1376F94200E9306C /* FinalScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49E76CAB1376F94200E9306C /* FinalScreenView.xib */; };
+		49E76D021376FE4E00E9306C /* CatsMeow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 49E76CF41376FE4E00E9306C /* CatsMeow.mp3 */; };
+		49E76D031376FE4E00E9306C /* CowsMoo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 49E76CF51376FE4E00E9306C /* CowsMoo.mp3 */; };
+		49E76D051376FE4E00E9306C /* Donkey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 49E76CF71376FE4E00E9306C /* Donkey.mp3 */; };
+		49E76D061376FE4E00E9306C /* Ducks.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 49E76CF81376FE4E00E9306C /* Ducks.mp3 */; };
+		49E76D071376FE4E00E9306C /* Elephants.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 49E76CF91376FE4E00E9306C /* Elephants.mp3 */; };
+		49E76D081376FE4E00E9306C /* Goats.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 49E76CFA1376FE4E00E9306C /* Goats.mp3 */; };
+		49E76D091376FE4E00E9306C /* Horse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 49E76CFB1376FE4E00E9306C /* Horse.mp3 */; };
+		49E76D0A1376FE4E00E9306C /* Lions.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 49E76CFC1376FE4E00E9306C /* Lions.mp3 */; };
+		49E76D0B1376FE4E00E9306C /* Morning Songbirds.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 49E76CFD1376FE4E00E9306C /* Morning Songbirds.mp3 */; };
+		49E76D0C1376FE4E00E9306C /* Owls.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 49E76CFE1376FE4E00E9306C /* Owls.mp3 */; };
+		49E76D0F1376FE4E00E9306C /* Songbirds.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 49E76D011376FE4E00E9306C /* Songbirds.mp3 */; };
+		49E76D5B1377033A00E9306C /* ChooseAudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E76D5A1377033A00E9306C /* ChooseAudioViewController.m */; };
+		49E76D5D137703B700E9306C /* ChooseAudioView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49E76D5C137703B700E9306C /* ChooseAudioView.xib */; };
+		49E76DA913770D1900E9306C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E76DA813770D1900E9306C /* icon.png */; };
+		49E76DB813770D5E00E9306C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E76DB713770D5E00E9306C /* Default.png */; };
+		49E76E0E13776FA400E9306C /* url.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E76E0D13776FA400E9306C /* url.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* AlarmAnimalsAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmAnimalsAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* AlarmAnimalsAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmAnimalsAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* AlarmAnimals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlarmAnimals.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* AlarmAnimals_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmAnimals_Prefix.pch; sourceTree = "<group>"; };
+		49C2A55A1384E677007BCD16 /* Bear.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Bear.mp3; path = Audio/Bear.mp3; sourceTree = "<group>"; };
+		49D3F706138A2134005AD5F2 /* Coyote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Coyote.mp3; path = Audio/Coyote.mp3; sourceTree = "<group>"; };
+		49D3F708138A213C005AD5F2 /* Sheep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Sheep.mp3; path = Audio/Sheep.mp3; sourceTree = "<group>"; };
+		49D3F70A138A2144005AD5F2 /* Rooster.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Rooster.mp3; path = Audio/Rooster.mp3; sourceTree = "<group>"; };
+		49E76C271376EC2D00E9306C /* question.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = question.png; path = Images/question.png; sourceTree = "<group>"; };
+		49E76C291376EC3700E9306C /* smiling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smiling.png; path = Images/smiling.png; sourceTree = "<group>"; };
+		49E76C2F1376ED1300E9306C /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		49E76C301376ED1300E9306C /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		49E76C321376ED2900E9306C /* AboutView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutView.xib; sourceTree = "<group>"; };
+		49E76C4A1376EE2F00E9306C /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = about.png; path = Images/about.png; sourceTree = "<group>"; };
+		49E76C4F1376EEE900E9306C /* NavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavController.h; sourceTree = "<group>"; };
+		49E76C501376EEE900E9306C /* NavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavController.m; sourceTree = "<group>"; };
+		49E76C531376F0A600E9306C /* AlarmAnimalsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmAnimalsViewController.h; sourceTree = "<group>"; };
+		49E76C541376F0A600E9306C /* AlarmAnimalsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmAnimalsViewController.m; sourceTree = "<group>"; };
+		49E76C571376F0E500E9306C /* AlarmAnimalsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlarmAnimalsView.xib; sourceTree = "<group>"; };
+		49E76C621376F2C000E9306C /* animal alarm320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "animal alarm320.png"; path = "Images/animal alarm320.png"; sourceTree = "<group>"; };
+		49E76C681376F41E00E9306C /* ChooseTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseTimeViewController.h; sourceTree = "<group>"; };
+		49E76C691376F41E00E9306C /* ChooseTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseTimeViewController.m; sourceTree = "<group>"; };
+		49E76C6B1376F46300E9306C /* ChooseTimeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChooseTimeView.xib; sourceTree = "<group>"; };
+		49E76C971376F7BA00E9306C /* ArchivingClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArchivingClass.h; sourceTree = "<group>"; };
+		49E76C981376F7BA00E9306C /* ArchivingClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArchivingClass.m; sourceTree = "<group>"; };
+		49E76C9F1376F87D00E9306C /* FinalScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinalScreen.h; sourceTree = "<group>"; };
+		49E76CA01376F87D00E9306C /* FinalScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinalScreen.m; sourceTree = "<group>"; };
+		49E76CA21376F89A00E9306C /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		49E76CA31376F89A00E9306C /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
+		49E76CA51376F8D700E9306C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		49E76CAB1376F94200E9306C /* FinalScreenView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FinalScreenView.xib; sourceTree = "<group>"; };
+		49E76CF41376FE4E00E9306C /* CatsMeow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = CatsMeow.mp3; path = Audio/CatsMeow.mp3; sourceTree = "<group>"; };
+		49E76CF51376FE4E00E9306C /* CowsMoo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = CowsMoo.mp3; path = Audio/CowsMoo.mp3; sourceTree = "<group>"; };
+		49E76CF71376FE4E00E9306C /* Donkey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Donkey.mp3; path = Audio/Donkey.mp3; sourceTree = "<group>"; };
+		49E76CF81376FE4E00E9306C /* Ducks.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Ducks.mp3; path = Audio/Ducks.mp3; sourceTree = "<group>"; };
+		49E76CF91376FE4E00E9306C /* Elephants.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Elephants.mp3; path = Audio/Elephants.mp3; sourceTree = "<group>"; };
+		49E76CFA1376FE4E00E9306C /* Goats.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Goats.mp3; path = Audio/Goats.mp3; sourceTree = "<group>"; };
+		49E76CFB1376FE4E00E9306C /* Horse.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Horse.mp3; path = Audio/Horse.mp3; sourceTree = "<group>"; };
+		49E76CFC1376FE4E00E9306C /* Lions.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Lions.mp3; path = Audio/Lions.mp3; sourceTree = "<group>"; };
+		49E76CFD1376FE4E00E9306C /* Morning Songbirds.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Morning Songbirds.mp3"; path = "Audio/Morning Songbirds.mp3"; sourceTree = "<group>"; };
+		49E76CFE1376FE4E00E9306C /* Owls.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Owls.mp3; path = Audio/Owls.mp3; sourceTree = "<group>"; };
+		49E76D011376FE4E00E9306C /* Songbirds.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Songbirds.mp3; path = Audio/Songbirds.mp3; sourceTree = "<group>"; };
+		49E76D591377033A00E9306C /* ChooseAudioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseAudioViewController.h; sourceTree = "<group>"; };
+		49E76D5A1377033A00E9306C /* ChooseAudioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseAudioViewController.m; sourceTree = "<group>"; };
+		49E76D5C137703B700E9306C /* ChooseAudioView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChooseAudioView.xib; sourceTree = "<group>"; };
+		49E76DA813770D1900E9306C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Images/icon.png; sourceTree = "<group>"; };
+		49E76DB713770D5E00E9306C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Images/Default.png; sourceTree = "<group>"; };
+		49E76E0D13776FA400E9306C /* url.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = url.png; path = Images/url.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* AlarmAnimals-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AlarmAnimals-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				49E76CA61376F8D700E9306C /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* AlarmAnimalsAppDelegate.h */,
+				1D3623250D0F684500981E51 /* AlarmAnimalsAppDelegate.m */,
+				49E76C2F1376ED1300E9306C /* AboutViewController.h */,
+				49E76C301376ED1300E9306C /* AboutViewController.m */,
+				49E76C4F1376EEE900E9306C /* NavController.h */,
+				49E76C501376EEE900E9306C /* NavController.m */,
+				49E76C531376F0A600E9306C /* AlarmAnimalsViewController.h */,
+				49E76C541376F0A600E9306C /* AlarmAnimalsViewController.m */,
+				49E76C681376F41E00E9306C /* ChooseTimeViewController.h */,
+				49E76C691376F41E00E9306C /* ChooseTimeViewController.m */,
+				49E76D591377033A00E9306C /* ChooseAudioViewController.h */,
+				49E76D5A1377033A00E9306C /* ChooseAudioViewController.m */,
+				49E76C9F1376F87D00E9306C /* FinalScreen.h */,
+				49E76CA01376F87D00E9306C /* FinalScreen.m */,
+				49E76CA21376F89A00E9306C /* Singleton.h */,
+				49E76CA31376F89A00E9306C /* Singleton.m */,
+				49E76C971376F7BA00E9306C /* ArchivingClass.h */,
+				49E76C981376F7BA00E9306C /* ArchivingClass.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* AlarmAnimals.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* AlarmAnimals_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* AlarmAnimals-Info.plist */,
+				49E76C321376ED2900E9306C /* AboutView.xib */,
+				49E76C571376F0E500E9306C /* AlarmAnimalsView.xib */,
+				49E76C6B1376F46300E9306C /* ChooseTimeView.xib */,
+				49E76D5C137703B700E9306C /* ChooseAudioView.xib */,
+				49E76CAB1376F94200E9306C /* FinalScreenView.xib */,
+				49E76C291376EC3700E9306C /* smiling.png */,
+				49E76C271376EC2D00E9306C /* question.png */,
+				49E76C4A1376EE2F00E9306C /* about.png */,
+				49E76E0D13776FA400E9306C /* url.png */,
+				49E76C621376F2C000E9306C /* animal alarm320.png */,
+				49E76DB713770D5E00E9306C /* Default.png */,
+				49E76DA813770D1900E9306C /* icon.png */,
+				49E76CF41376FE4E00E9306C /* CatsMeow.mp3 */,
+				49D3F70A138A2144005AD5F2 /* Rooster.mp3 */,
+				49E76CF51376FE4E00E9306C /* CowsMoo.mp3 */,
+				49E76CF71376FE4E00E9306C /* Donkey.mp3 */,
+				49D3F708138A213C005AD5F2 /* Sheep.mp3 */,
+				49E76CF81376FE4E00E9306C /* Ducks.mp3 */,
+				49E76CF91376FE4E00E9306C /* Elephants.mp3 */,
+				49E76CFA1376FE4E00E9306C /* Goats.mp3 */,
+				49D3F706138A2134005AD5F2 /* Coyote.mp3 */,
+				49E76CFB1376FE4E00E9306C /* Horse.mp3 */,
+				49E76CFC1376FE4E00E9306C /* Lions.mp3 */,
+				49E76CFD1376FE4E00E9306C /* Morning Songbirds.mp3 */,
+				49E76CFE1376FE4E00E9306C /* Owls.mp3 */,
+				49E76D011376FE4E00E9306C /* Songbirds.mp3 */,
+				49C2A55A1384E677007BCD16 /* Bear.mp3 */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				49E76CA51376F8D700E9306C /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* AlarmAnimals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "AlarmAnimals" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlarmAnimals;
+			productName = AlarmAnimals;
+			productReference = 1D6058910D05DD3D006BFB54 /* AlarmAnimals.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "AlarmAnimals" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* AlarmAnimals */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				49E76C281376EC2D00E9306C /* question.png in Resources */,
+				49E76C2A1376EC3700E9306C /* smiling.png in Resources */,
+				49E76C331376ED2900E9306C /* AboutView.xib in Resources */,
+				49E76C4B1376EE2F00E9306C /* about.png in Resources */,
+				49E76C581376F0E500E9306C /* AlarmAnimalsView.xib in Resources */,
+				49E76C631376F2C000E9306C /* animal alarm320.png in Resources */,
+				49E76C6C1376F46300E9306C /* ChooseTimeView.xib in Resources */,
+				49E76CAC1376F94200E9306C /* FinalScreenView.xib in Resources */,
+				49E76D021376FE4E00E9306C /* CatsMeow.mp3 in Resources */,
+				49E76D031376FE4E00E9306C /* CowsMoo.mp3 in Resources */,
+				49E76D051376FE4E00E9306C /* Donkey.mp3 in Resources */,
+				49E76D061376FE4E00E9306C /* Ducks.mp3 in Resources */,
+				49E76D071376FE4E00E9306C /* Elephants.mp3 in Resources */,
+				49E76D081376FE4E00E9306C /* Goats.mp3 in Resources */,
+				49E76D091376FE4E00E9306C /* Horse.mp3 in Resources */,
+				49E76D0A1376FE4E00E9306C /* Lions.mp3 in Resources */,
+				49E76D0B1376FE4E00E9306C /* Morning Songbirds.mp3 in Resources */,
+				49E76D0C1376FE4E00E9306C /* Owls.mp3 in Resources */,
+				49E76D0F1376FE4E00E9306C /* Songbirds.mp3 in Resources */,
+				49E76D5D137703B700E9306C /* ChooseAudioView.xib in Resources */,
+				49E76DA913770D1900E9306C /* icon.png in Resources */,
+				49E76DB813770D5E00E9306C /* Default.png in Resources */,
+				49E76E0E13776FA400E9306C /* url.png in Resources */,
+				49C2A55B1384E677007BCD16 /* Bear.mp3 in Resources */,
+				49D3F707138A2134005AD5F2 /* Coyote.mp3 in Resources */,
+				49D3F709138A213C005AD5F2 /* Sheep.mp3 in Resources */,
+				49D3F70B138A2144005AD5F2 /* Rooster.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* AlarmAnimalsAppDelegate.m in Sources */,
+				49E76C311376ED1300E9306C /* AboutViewController.m in Sources */,
+				49E76C511376EEE900E9306C /* NavController.m in Sources */,
+				49E76C551376F0A600E9306C /* AlarmAnimalsViewController.m in Sources */,
+				49E76C6A1376F41E00E9306C /* ChooseTimeViewController.m in Sources */,
+				49E76C991376F7BA00E9306C /* ArchivingClass.m in Sources */,
+				49E76CA11376F87D00E9306C /* FinalScreen.m in Sources */,
+				49E76CA41376F89A00E9306C /* Singleton.m in Sources */,
+				49E76D5B1377033A00E9306C /* ChooseAudioViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AlarmAnimals_Prefix.pch;
+				INFOPLIST_FILE = "AlarmAnimals-Info.plist";
+				PRODUCT_NAME = AlarmAnimals;
+				SDKROOT = iphoneos4.3;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AlarmAnimals_Prefix.pch;
+				INFOPLIST_FILE = "AlarmAnimals-Info.plist";
+				PRODUCT_NAME = AlarmAnimals;
+				SDKROOT = iphoneos4.3;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49C2A57E1384EC4B007BCD16 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Distribution;
+		};
+		49C2A57F1384EC4B007BCD16 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Lighten Up/ Enterprises LLC";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AlarmAnimals_Prefix.pch;
+				INFOPLIST_FILE = "AlarmAnimals-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = AlarmAnimals;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "515F388A-6D98-4FAB-8841-4700ED00FC49";
+				SDKROOT = iphoneos4.3;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "AlarmAnimals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				49C2A57F1384EC4B007BCD16 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "AlarmAnimals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				49C2A57E1384EC4B007BCD16 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
